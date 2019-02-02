@@ -1,6 +1,12 @@
 # BMS-Docs
 A set of Markdown documents detailing BMS, written by and for the community
 
+## Wheres the help files? I need help!
+If you click on Acryonms above this, in the project window, that will list all the currently written acronyms in the Docs. 
+
+## I went looking for an acronym, and you didnt have it!
+We're very sorry! Let us know if you find one we are missing, with a [new issue](https://github.com/Blu3wolf/BMS-Docs/issues/new).
+
 ## Holy cow! How do I help?
 Not to worry, Git is easy to use! First, you'll need to set up an account. Go do that now; Its free, and we'll wait.
 
