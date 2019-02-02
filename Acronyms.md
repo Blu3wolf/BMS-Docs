@@ -10,3 +10,17 @@ KTO | Korean Theatre of Operations |
 WIP | Work In Progress |
 Inc. | Incorporated |
 DOC | Document |
+FPS | Frames Per Second |
+DTC | Data Transfer Cartridge |
+EWS | Electronic Warfare System | BMS window used for planning countermeasure systems
+COMMS | Communications | 
+PPT | Pre Planned Threat | Steerpoint used to note threat location
+MP | Multiplayer |
+AI | Artificial Intelligence |
+AI | Air Interdiction | Mission type behind enemy lines to attack ground targets of opportunity
+UI | User Interface |
+2D | Two Dimensions |
+3D | Three Dimensions |
+FOV | Field Of View | Refers to what is visible, or how much is visible - how wide you can see
+TE | Tactical Engagement | A type of saved mission where flights are preplanned and preset
+ACMI | Air Combat Maneuvering Instrumentation | A system for recording flights for later review
