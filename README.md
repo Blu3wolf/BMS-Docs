@@ -8,7 +8,7 @@ If you click on Acryonms above this, in the project window, that will list all t
 We're very sorry! Let us know if you find one we are missing, with a [new issue](https://github.com/Blu3wolf/BMS-Docs/issues/new).
 
 ## Holy cow! How do I help?
-Not to worry, Git is easy to use! First, you'll need to set up an account. Go do that now; Its free, and we'll wait.
+Not to worry, Github is easy to use! First, you'll need to [set up an account](https://github.com/join). Go do that now; Its free, and we'll wait.
 
 Once you have that sorted out, at the upper right of this page, above the settings button, you should see a button labelled 'Fork'. Click that - it will make a copy of this set of documentation, which you can edit and distribute as you like. The important part of that is that once you have made edits, you can notify me of those edits and request them for inclusion in the main project here, with a 'pull request'. 
 
