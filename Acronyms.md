@@ -5,7 +5,6 @@ This file lists acronyms used in BMS documents, here and elsewhere, that are rel
 
 Abbr. | Full Term | Description
 ---|---|---
-
 2D | Two Dimensions |
 3D | Three Dimensions |
 ACMI | Air Combat Maneuvering Instrumentation | A system for recording flights for later review
