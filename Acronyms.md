@@ -7,7 +7,7 @@ Abbr. | Full Term | Description
 ---|---|---
 -1 | Dash One | Aircraft Flight Manual
 -34 | Dash Thirty Four | Aircraft Avionics Manual
-2D | Two Dimensions |
+2D | Two Dimensions | 
 3D | Three Dimensions |
 A-A | Air to Air |
 A-G | Air to Ground |
