@@ -40,6 +40,8 @@ ATP | Advanced Targeting Pod |
 AVTR | Air Video Tape Recorder |
 AWACS | Airborne Warning and Control System | Aircraft with long range radar and C3 capability
 BARCAP | Barrier CAP |
+BATT | Battery | Aircraft Battery power source
+BIT | Built In Test | Type of test run on avionics / computer systems to ensure they are working.
 BMS | Benchmark Sims | 
 BUP | Backup |
 BVR | Beyond Visual Range |
@@ -49,6 +51,7 @@ C&C | Command and Control |
 CAP | Combat Air Patrol |
 CAS | Close Air Support | What the guys on the ground love the hog for...
 CAS | Calibrated Air Speed | IAS corrected for position and instrument error
+CFT | Conformal Fuel Tanks | Aditional fuel tanks on F-16 Fuselage on later F-16 modesl such as Block 50/52 Advanced, Plus and Block 60
 CMS | Countermeasures Switch | 4 way switch on the SSC. Controls dispensing of OBCMs. Essential.
 CNI | Communication and Navigation Instruments | 2 position knob on the AUX COMM panel. Controls whether UFC or BUP controls are active.
 COMMS | Communications | 
@@ -81,6 +84,7 @@ FCR | Fire Control Radar | An MFD page displaying radar information
 FEBA | Forward Edge of Battle Area |
 FFB | Force Feedback |
 FLCS | Flight Control System | 
+FLCC | Flight Control Computer |
 FLIR | Forward Looking IR | 
 FLOT | Forward Line of Own Troops |
 FOV | Field Of View | Refers to what is visible, or how much is visible - how wide you can see
@@ -99,6 +103,7 @@ GPS | Global Positioning System | A system of satellites transmitting signals us
 GRIB | Grid In Binary | A file type for saving weather information
 GS | Ground Speed | Actual Speed over the ground. Equivalent to TAS modified by wind.
 GU | Ground Unit |
+GW | Gross Weight | A measure of aircraft weight above empty including stores and fuel as defined.
 HAD | HARM Attack Display | MFD format for employing the HARM AGM-88
 HARM | High Speed Anti Radiation Missile | AGM-88
 HVAACAP | High Value Air Asset CAP |
@@ -140,6 +145,8 @@ Link-16 | Link-16 | A system currently unimplemented in BMS
 MAL & IND LTS | Malfunction and Indicator Lights | A self explanatory test button in the aircraft
 MAN | Manual | As opposed to AUTO
 MAN RANGE | Range knob | Throttle control used to adjusting TGP FOV
+MAINT | Maintenance 
+MB | MiGBuster.
 MC | Mission Commander | Software for editing BMS missions
 MFD | Multi Function Display | 
 MFDE | MFD Extractor |
@@ -159,12 +166,15 @@ NM | Nautical Miles |
 NVG | Night Vision Goggles |
 NWS | Nose Wheel Steering | 
 OBCM | On Board Countermeasures | chaff, flares, those fancy electronic beepers we dont have in BMS.
+OBOGS | On Board Oxygen Generating System  
 OCA | Offensive Counter Air | Mission flow with the aim to disrupt or destroy enemy air operations
 OFM | Old Flight Model | Not as good as AFM
+OHEAT | Overheat | Something is getting too hot.
 OK | Okay |
 OOB | Order of Battle |
 OPFOR | Opposing Force | Fancy word for 'enemy'
 OSB | Option Select Button | The fancy name for the little buttons around the edge of the MFD
+OXY LOW | Oxygen Low 
 PDLCT | Pod de Désignation Laser à Caméra Thermique | An older pod not used on F-16s
 PFL | Pilot Fault List |
 PFPS | Portable Flight Planning Software | Slightly newer F-16 mission planning software
@@ -172,6 +182,7 @@ POV | Point of View | Usually, POV hat - the hat on your joystick used to look a
 PPT | Pre Planned Threat | Steerpoint used to note threat location
 PTR | IR Pointer | A mode for the TGP
 PW | Pratt-Whittney | An engine manufacturer
+PWR | Power 
 QNH | Question Nil Height | A measure of air pressure adjusted to sea level
 REQJAM | Request Jam | Option in EWS page of BMS UI to have the ALR REQJAM when detecting a threat
 ROE | Rules of Engagement |
@@ -206,7 +217,7 @@ TER | Triple Ejector Rack | A bomb rack that can carry three bombs.
 TFR | Terrain Following Radar |
 TGP | Targeting Pod |
 TGT | Target |
-TIR | TrackIR | A cheap and nasty headtracker. Get EDTracker instead. 
+TIR | TrackIR | A cheap and nasty headtracker (AKA the best on the market). Get EDTracker instead. 
 TMS | Target Management Switch | A 4 way switch on the SSC. Context sensitive, used for a wide variety of tasks in the avionics suite. Essential.
 TOF | Time of Flight | 
 TOS | Time Over Steerpoint  |
@@ -214,7 +225,7 @@ TOT | Time on Target |
 TvT | Team versus Team | 
 U1 | Update 1 | Usually, 4.33 U1. The first version to require Flacon 4.0 be currently installed.
 UDP | User Datagram Protocol | used instead of TCP for games
-UFC | Up Front Controls |
+UFC | Up Front Controller |
 UHF | Ultra High Frequency | A radio band above VHF
 UI | User Interface |
 V/STOL | Vertical or Short Takeoff and Landing | 
