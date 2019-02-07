@@ -162,7 +162,6 @@ DRIFT C/O | Drift Cut Out | Switch on ICP to remove wind drift from HUD symbolog
 DRNG | | DED Page
 DWAT | Descent Warning After Takeoff | Warning system to help the pilot after takeoff.
 DX | DirectX |
-
 ECM | Electronic Counter Measures | Defensive component of Electronic Warfare.
 ECS | Environmental Control System | Provides Air conditioning and pressurisation.
 EDR | Endurance |
