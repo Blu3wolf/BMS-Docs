@@ -127,6 +127,7 @@ CW | Clock Wise |
 CWDS | Combat Weapon Delivery Software | F-16 mission planning software
 CZ | Cursor Zero | MFD OSB function used to zero cursor slews; required for accurate navigation in BMS.
 DA | Direct Access | Direct Access OSBs #12, #13, #14.
+Dash-34 | tautological confusion | Dash Dash 34 - it's a manual
 DBS | Doppler Beam Sharpening | APG-68 A-G sub modes to give a closer look at an area.
 DBU | Digital Backup software state | A pilot can select this in aircraft with a digital FLCS.
 DC | Direct Current |
@@ -159,8 +160,9 @@ DTE | Data Transfer Equipment |
 DTOS | Dive Toss | a Bombing Mode. 
 DRIFT C/O | Drift Cut Out | Switch on ICP to remove wind drift from HUD symbology.
 DRNG | | DED Page
+DWAT | Descent Warning After Takeoff | Warning system to help the pilot after takeoff.
 DX | DirectX |
-Dash-34 | tautological confusion | Dash Dash 34 - its a manual
+
 ECM | Electronic Counter Measures | Defensive component of Electronic Warfare.
 ECS | Environmental Control System | Provides Air conditioning and pressurisation.
 EDR | Endurance |
@@ -293,6 +295,7 @@ LAN | Local Area Network | What your router sets up between itself and your comp
 LAND | Landing Time | TEST MFD Page
 LANTIRN | Low Altitude Tactical Navigation with IR at Night | A specific system used on some F-16s for night flight.
 LASER ST or LST | Laser Spot Track |
+LCO | Limit Cycle Oscillation | Complex buffeting and stores flutter.
 LEF or LE FLAPS | Leading Edge Flaps |
 LG or LDG | Landing Gear |
 LGB | Laser Guided Bomb | 
@@ -331,11 +334,12 @@ MMC | Modular / Multi-Mission Computer | Previoulsy known as the FCC.
 MNL | Manual | Manual radio mode also see MAN.
 MP | Multiplayer |
 MPO | Manual Pitch Overide Switch | Used to rock out of Deep Stalls.
-MRK | Mark |
+MRK | Mark | Typically Mark point
 MRM | Missile Overide Mode | selected via Throttle for quick access to AMRAAM and Sidewinder missiles.
 MSA | Minimum Safe Altitude |
 MSL | Missile Slaving Loop | This specifically refers to the volume control for the sidewinder (AIM-9) audio tone.
 MSL | Minimum Safe Level | Value used with TFR.
+MSL | Mean Sea Level | A measure of altitude from Sea Level.
 MSL OVRD | Missile Override Mode | One of two override mastermodes in the F-16
 MSR OVRD | Miss-spelling of MSL OVRD |
 MUX | Multiplexer |
