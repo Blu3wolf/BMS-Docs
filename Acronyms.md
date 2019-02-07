@@ -18,7 +18,8 @@ AAR | After Action Report |
 AB | Afterburner | AB nozzle always refers to Afterburner
 AB | Airbase |
 ABCCC | Airborne Battlefield Command and Control Centre |
-AC | Aircraft |
+ABCD || Four branch power supply in real F-16.
+AC or ACFT | Aircraft |
 AC | Alternating Current |
 ACM | Air Combat Mode | APG-68 A-A Radar sub modes.
 ACMI | Air Combat Maneuvering Instrumentation | A system for recording flights for later review.
@@ -28,9 +29,10 @@ AD | Arming Delay | Bomb arm delay in seconds.
 ADI | Attitude Direction Indicator | Common flight instrument showing current attitude.
 ADLINK | Air to Air Datalink Information | HSD page
 ADV | Advisory |
-ADV | Indicator used with TFR system to denote ACTIVE (Auto TFR is enabled) or STBY (system is in Manual).
+ADV | Advanced | Indicator used with TFR system to denote ACTIVE (Auto TFR is enabled) or STBY (system is in Manual).
 AEW | Airborne Early Warning | 
 AFM | Advanced Flight Model | The only flight model installed with BMS
+AFMAN | Air Force Manual |
 AFT | Aft | Aft or Rear
 AI | Air Interdiction | Mission type behind enemy lines to attack ground targets of opportunity
 AI | Artificial Intelligence |
@@ -45,8 +47,10 @@ AOA | Angle of Attack | The angular distance between the aircraft flight path, a
 AOR | Area of Responsibility |
 AP or A/P | Auto Pilot |
 AR | Aerial Refueling | Usually, AR door 
+AR | Automatic Radar | HUD label when displaying radar altitude.
 ARM | Anti Radiation Missile |
 ARTCC | Air Route Traffic Control Centre | 
+ASGN | Assign | 
 ATC | Air Traffic Control | In BMS, this refers to an enthuiastic underachiever
 ATLIS | Automatic Tracking and Laser Integration System | An older pod not used on F-16s
 ATO | Air Tasking Order | In BMS, this refers to the list of planned packages
@@ -71,8 +75,10 @@ BORE | Boresight | AGM-65 targeting mode.
 BP | Bypass | SMS Uncage IR Missile manually.
 BQ | Burst Quantity | DED EWS Page option.
 BRAA | Bearing, Range, Altitude, Aspect | Information given to locate any object (aircraft, bullseye etc).
+BRK | Brake | e.g. Speed Brake
 BRT | Bright or Brightness | 
-BSGT | Boresight Correction | e.g. FLIR Boresight option. 
+BSGT | Boresight Correction | e.g. FLIR Boresight option.
+BUC | | Caution light
 BUP | Backup |
 BULL | Bullseye |
 BVR | Beyond Visual Range |
@@ -83,7 +89,7 @@ C&C | Command and Control |
 CAP | Combat Air Patrol |
 CAS | Close Air Support | What the guys on the ground love the hog for...
 CAS | Calibrated Air Speed | IAS corrected for position and instrument error.
-CAT I or III | Category | Limiter modes - CAT I usually A-A and CAT III typically A-G. 
+CAT I or CAT III | Category | Limiter modes - CAT I A-A and CAT III typically A-G. 
 CARA | Combined Altitude Radar Altimeter | Measures altitude above ground for the F-16.
 CCIP | Continuously Computed Impact Point | Common manual bombing mode 
 CCRP | Continuously Computed Release Point | Common manual bombing mode used with most Guided bombs also.
@@ -110,6 +116,7 @@ CTR | Centre |
 CWDS | Combat Weapon Delivery Software | F-16 mission planning software
 CZ | Cursor Zero | MFD OSB function used to zero cursor slews; required for accurate navigation in BMS.
 DA | Direct Access | Direct Access OSBs #12, #13, #14.
+DBS | Doppler Beam Sharpening | APG-68 A-G sub modes to give a closer look at an area.
 DBU | Digital Backup software state | A pilot can select this in aircraft with a digital FLCS.
 DC | Direct Current |
 DCA | Defensive Counter Air | Air Mission undertaken to defend friendly forces from effects of enemy air power
@@ -117,7 +124,7 @@ DCLT | Declutter | Make a sensor output clearer by removing parts.
 DCPL | Decoupled | e.g. HSD is decoupled from FCR.
 DCS | Data Command Switch | Switch used on ICP to navigate DED menus.
 DDS | Direct Draw Surface | A type of texture for game models
-DEC | Digital Electronic Control for Jet engine | 
+DEEC | Digital Electronic Engine Control |
 DED | Data Entry Display |
 DELTA | Difference |
 DEP | Depressed |
@@ -126,6 +133,7 @@ DEV | Developer |
 DGFT | Dogfight Mode | One of two override mastermodes in the F-16
 DISC | Disconnect |
 DL | Data Link |
+DLZ | Dynamic Launch Zone |
 DMPI | Desired Munitions Point of Impact |
 DME | Distance Measuring Equipment | Slant range from Aircraft to a Ground station (typically TACAN)
 DMS | Display Management Switch | 4 way switch on the SSC. Used to control displays in the avionics suite. Important.
@@ -141,7 +149,9 @@ DRNG | | DED Page
 DX | DirectX |
 Dash-34 | tautological confusion | Dash Dash 34 - its a manual
 ECM | Electronic Counter Measures | Defensive component of Electronic Warfare.
+ECS | Environmental Control System | Provides Air conditioning and pressurisation.
 EDR | Endurance |
+EEC | Electrical Engine Control |
 EEGS | Enhanced Envelope Gunsight | HUD mode for gun aiming in A-A. 
 EGI | Electronic GPS / INS | Have fun looking those ones up, I guess!
 ELEC | Electrical system |
@@ -149,6 +159,7 @@ ELEV or EL | Elevation or Height |
 EMF | Eastern Mediterranean Front | A (now defunct) theatre for BMS. Never released.
 ENG | Engine |
 ENTR | Enter |
+EOR | End Of Runway |
 EPAF | European Participating Air Force | The European Air Forces that fly F-16s
 EPU | Emergency Power Unit | A backup electrical power system for the F-16.
 ETA | Estimated Time of Arrival |
@@ -167,12 +178,16 @@ FEDS | | HUD EEGS symbology.
 FENCE | Fence | A boundary separating hostile and friendly forces 
 FENCE Check | A list of checks a pilot must perform in flight to ensure switches are setup for combat. 
 FFB | Force Feedback |
+FFP | Fuel Flow Proportioner | Fuel System device that adjusts fuel flow rates.
 FL | Flare | Expendable IR decoy.
 FLT | Flight |
-FLCS | Flight Control System | 
+FLCS | Flight Control System |
+FLCS PMG | | Part of a standby generator that supplies power to the four FLCS branches.
 FLCC | Flight Control Computer |
+FLCP | Flight Control Panel |
 FLIR | Forward Looking IR | 
 FLOT | Forward Line of Own Troops |
+FOS | Fuel Onboard at Station | Pilot fuel check
 FOV | Field Of View | Refers to what is visible, or how much is visible - how wide you can see
 FR | Forward Right reservoir | Fuel needle. 
 Frag | Fragmentation | Type of weapon effect
@@ -210,6 +225,7 @@ HDG | Heading |
 HDPT | Hardpoint | Often denotes the two cheek hardpoints on the air inlet.
 HDR | High Density Range | Refers to a software rendering method for improving visual appearance in many lighting conditions
 HiRes | High Resolution | Refers specifically to HiRes textures, a particular tileset
+HMC | HUD Mark Cue | 12 mil circle on HUD for Mark Points.
 HMCS | Helmet Mounted Cueing System | A system for pointing aircraft and weapon sensors along the operators line of sight
 HMPT | Home Plate | Home Air Base.
 HOBO | Hands On Blackout switch | On Throttle
@@ -248,6 +264,7 @@ JDAM | Joint Direct Attack Munition |
 JETT | Jettison |
 JFS | Jet Fuel Starter | Small gas turbine used to start the main engine.
 JMR | Jammer | ECM Jammer pod.
+JOKER || Used as a warning of getting near to BINGO fuel.
 JSTARS | Joint Surveillance Target Attack Radar System | E-8 ground battle management and C3 aircraft
 kHz | KiloHertz | A unit of measurement of frequency equal to 1,000 Hz
 KM | Kilometres | Unit of measurement.
@@ -310,6 +327,7 @@ NOZ POS | (Engine) Nozzle Position |
 NSTL | Nose & Tail | Bomb fuzing option.
 NVG | Night Vision Goggles |
 NWS | Nose Wheel Steering | 
+OA or OA1/2 | Offset Aim point sighting |
 OBCM | On Board Countermeasures | chaff, flares, those fancy electronic beepers we dont have in BMS.
 OBOGS | On Board Oxygen Generating System  
 OCA | Offensive Counter Air | Mission flow with the aim to disrupt or destroy enemy air operations.
@@ -343,9 +361,10 @@ PRF | Pulse Repetition Frequency | A Radar function.
 PRGM | Program |
 PRI | Primary Engine operating mode |
 PROF | Profile |
+PSI | Pounds Per Square Inch | Pressure measurement.
 PTR | IR Pointer | A mode for the TGP
-PW | Pratt-Whittney | An engine manufacturer
 PUP | Pull Up Point | Used with VIP bombing.
+PW | Pratt-Whittney | An engine manufacturer
 PWR | Power |
 QNH | Question Nil Height | A measure of air pressure adjusted to sea level.
 QTY | Quantity |
@@ -363,6 +382,7 @@ Rmin | Minimum Range | Typically denotes Missile firing parameters.
 RNG | Range |
 ROE | Rules of Engagement |
 ROK | Republic of Korea | South Korea
+RP | Reference Point | e.g. Visual Reference point sighting 
 RPM | Revolutions Per Minute |
 RSVR | Reserve |
 RTB | Return to Base |
@@ -397,6 +417,8 @@ SPI | System Point of Interest | A system used in the F-16 to ensure all (some) 
 SPICE | A specific IAM | Not an acronym, but included because you might come here looking for it.
 SQ | Sequence Quantity | DED EWS Page option.
 SQL | Squelch | A Radio mode that helps reduce background noise.
+SP | Snow Plow | APG-68 A-G Radar sub mode.
+SPD | Speed |
 SSC | Side Stick Controller | The F-16 joystick
 STO | Short Takeoff |
 ST STA | Store Stations |
@@ -433,6 +455,7 @@ TOS | Time Over Steerpoint  |
 TOT | Time on Target |
 TRANS | Transfer |
 TRIM | Trim | Yaw, Pitch or Rudder Trim 
+TRP | Trapped | Trapped Fuel condition.
 TWA | Threat Warning Aux | Specifially the defence suite panel on the left auxiliary console.
 TvT | Team versus Team | 
 TWP | Threat Warning Prime | Primary RWR threat warning display panel.
