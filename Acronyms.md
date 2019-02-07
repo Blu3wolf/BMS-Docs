@@ -252,7 +252,7 @@ MWS | Missile Warning System |
 NAT | Network Address Translation | A function of your router (probably)
 NAV | Navigation | Default mastermode of the aircraft
 NFBW | Non Fly By Wire | The conventional method of aircraft control
-NLG | NOse Langing Gear |
+NLG | Nose Landing Gear |
 NM | Nautical Miles |
 NORM | Normal |
 NOZ POS | (Engine) Nozzle Position | 
