@@ -368,7 +368,7 @@ UHF | Ultra High Frequency | A radio band above VHF
 UI | User Interface |
 V/STOL | Vertical or Short Takeoff and Landing |
 VAH | Velocity, Altitude, Heading | HUD mode.
-VIP | 
+VIP | Visual Initial Point Sighting | Preplanned offset bombing technique. 
 VTO | Vertical Takeoff |
 VTOL | Vertical Takeoff and Landing |
 VFR | Visual Flight Rules | Very F*\*king Risky
