@@ -20,6 +20,7 @@ AB | Airbase |
 ABCCC | Airborne Battlefield Command and Control Centre |
 AC | Aircraft |
 AC | Alternating Current |
+ACM | Air Combat Mode | APG-68 A-A Radar sub modes.
 ACMI | Air Combat Maneuvering Instrumentation | A system for recording flights for later review.
 ACT | Activity |
 AD | Air Defence |
@@ -66,10 +67,12 @@ BI | Burst Interval | DED EWS Page option.
 BINGO or BNGO | | Time to go home we are Bingo Fuel - Just enough fuel to get back to base.
 BIT | Built In Test | Type of test run on avionics / computer systems to ensure they are working.
 BMS | Benchmark Sims |
+BORE | Boresight | AGM-65 targeting mode.
 BP | Bypass | SMS Uncage IR Missile manually.
 BQ | Burst Quantity | DED EWS Page option.
 BRAA | Bearing, Range, Altitude, Aspect | Information given to locate any object (aircraft, bullseye etc).
 BRT | Bright or Brightness | 
+BSGT | Boresight Correction | e.g. FLIR Boresight option. 
 BUP | Backup |
 BULL | Bullseye |
 BVR | Beyond Visual Range |
@@ -99,6 +102,7 @@ COND | (Air) Conditioning |
 CONFIG | Configuration |
 CORR | Correction |
 CPL | Coupled | e.g. HSD is Coupled to the FCR range.
+CRM | Combined Radar Mode | AGM-68 A-A radar mode.
 CRS | Course | Your current course.
 CRUS | Cruise | DED Mode button on ICP.
 CTO | Conventional Takeoff |
@@ -159,6 +163,7 @@ FAIL | Fail | e.g. A test has failed.
 FCR | Fire Control Radar | An MFD page displaying radar information
 FDBK | Feedback | DED EWS page option.
 FEBA | Forward Edge of Battle Area |
+FEDS | | HUD EEGS symbology. 
 FENCE | Fence | A boundary separating hostile and friendly forces 
 FENCE Check | A list of checks a pilot must perform in flight to ensure switches are setup for combat. 
 FFB | Force Feedback |
@@ -186,6 +191,8 @@ GD or GRD | Guard | A Radio mode on an open frequency that many can hear.
 GE | General Electric | An engine manufacturer
 GEN | Generator |
 GDLINK | Air to Ground Datalink Information | HSD Page
+GM | Ground Mapping | APG-68 A-G Radar mode. 
+GMT | Ground Moving Target | APG-68 A-G Radar mode.
 GND | Ground |
 GOG | Good Old Games |
 GP | General Purpose | As in, high speed delivery of low intelligence, high explosive
@@ -197,6 +204,7 @@ GU | Ground Unit |
 GW | Gross Weight | A measure of aircraft weight above empty including stores and fuel as defined.
 HAD | HARM Attack Display | MFD format for employing the HARM AGM-88
 HARM | High Speed Anti Radiation Missile | AGM-88
+HAS | HARM As Sensor | HARM targetting mode using the missile sensor.
 HVAACAP | High Value Air Asset CAP |
 HDG | Heading |
 HDPT | Hardpoint | Often denotes the two cheek hardpoints on the air inlet.
@@ -253,8 +261,11 @@ LEF or LE FLAPS | Leading Edge Flaps |
 LG or LDG | Landing Gear |
 LGB | Laser Guided Bomb | 
 LGMF | Ive already left, sir | Used by AI wingmen who were less than impressed.
+LIT | Look Into Turn | FLIR HUD Viewing option.
 LOC | Localiser | Displayed on ADI when localiser needle unreliable.
 LOS | Line of Sight | 
+LPI | Low Probablity of Intercept | TFR Radar mode.
+LRS | Long Range Scan | A-A APG-68 Radar mode.
 LST | Laser Spot Tracker | A mode for the TGP
 Link-16 | Link-16 | A system currently unimplemented in BMS.
 M-SEL | Mode Select | button on ICP.
@@ -310,6 +321,7 @@ OK | Okay |
 OM | Outer Marker | Marker beacon for ILS approach. 
 OOB | Order of Battle |
 OPFOR | Opposing Force | Fancy word for 'enemy'
+OPER | Operational | 
 OPR | Operate | A system is running.
 OSB | Option Select Button | The fancy name for the little buttons around the edge of the MFD
 OVRD | Override |
@@ -346,6 +358,8 @@ REQJAM | Request Jam | Option in EWS page of BMS UI to have the ALR REQJAM when 
 REL | Release |
 RF | Radio Frequency | Radio / wireless communication emissions. 
 RLY | Relay(s) | Part of Electrical System.
+Rmax | Maximum Range | Typically denotes Missile firing parameters.
+Rmin | Minimum Range | Typically denotes Missile firing parameters.
 RNG | Range |
 ROE | Rules of Engagement |
 ROK | Republic of Korea | South Korea
@@ -357,11 +371,13 @@ RUN | Run | e.g. A test is running.
 RV | maybe Rendezvous? | Used in pg 175 of BMS-Manual.pdf
 RVTO | Rolling Vertical Takeoff |
 RWR | Radar Warning Receiver | Part of the electronic warfare suite. Displays rough relative bearing to detected threats.
+RWS | Range While Scan | APG-68 A-A Radar mode.
 S-J | Selective Jettison | SMS MFD Option.
 SA | Situational Awareness | The number one - without this you are nothing.
 SAM | Surface to Air Missile | A common and persistent air defence weapon.
 SAM | Situational Awareness Mode | An A-A radar mode.
 SCOR | | SMS - When on Allows BATR and FEDS markers in the HUD
+SEA | Anti-Ship | APG-68 A-Sea radar mode 
 SEAD | Suppression of Enemy Air Defences | A mission that, in BMS equates to Destruction of Enemy Air Defences
 SEC | Secondary Engine Control | Automatic engine mode of operation for most F-16 engines
 SEL | Select |
@@ -370,6 +386,7 @@ SEQ | Sequence? | Function of moving the DCS right on the ICP - e.g. will step t
 SI | Sequence Interval | DED EWS Page option.
 Sierra Hotel | Shit Hot... 
 SIM | Simulate |
+SMTH | Smooth | TFR Ride option.
 SMS | Stores Management Subsystem | An MFD format that displays stores loaded on the aircraft.
 SNSR | Sensor |
 SOI | Sensor Of Interest | The system that is selected / in use and has focus. Typically on an MFD or the HUD.
@@ -419,31 +436,38 @@ TRIM | Trim | Yaw, Pitch or Rudder Trim
 TWA | Threat Warning Aux | Specifially the defence suite panel on the left auxiliary console.
 TvT | Team versus Team | 
 TWP | Threat Warning Prime | Primary RWR threat warning display panel.
+TWS | Track While Scan | APG-68 A-A Radar Mode.
 TWS | Threat Warning System 
 U1 | Update 1 | Usually, 4.33 U1. The first version to require Flacon 4.0 be currently installed.
 UDP | User Datagram Protocol | used instead of TCP for games
 UFC | Up Front Controller |
 UHF | Ultra High Frequency | A radio band above VHF
 UI | User Interface |
+ULS | Ultra Long Search | APG-68 A-A Radar mode.
 V/STOL | Vertical or Short Takeoff and Landing |
 VAH | Velocity, Altitude, Heading | HUD mode.
 VIP | Visual Initial Point Sighting | Preplanned offset IP bombing technique. 
 VTO | Vertical Takeoff |
 VTOL | Vertical Takeoff and Landing |
+VIS | Visual | e.g. AGM-65 Visual E-O mode.
 VFR | Visual Flight Rules | Very F*\*king Risky
 VHF | Very High Frequency | A radio band below UHF
+VLC | Very Low Clearance | TFR Radar mode for flat terrain.
 VNE | Velocity Never Exceed | Do not exceed this velocity.
 VMC | Visual Meterological Conditions | Weather in which the VFR are feasible
 VMS | Voice Message System |
 VMU | Voice Message Unit |
 VRP | Visual Reference Point | Preplanned offset Target bombing technique.
+VSR | Velocity Search with Ranging | APG-68 A-A radar mode. 
 VV  | Vertical Velocity |
 VVI | Vertical Velocity Indicator | Shows climb or descent rate.
 WAN | Wide Area Network | In this case, anything other than the LAN
 WC | Weather Commander | Software for editing BMS weather maps
 WCMD | Wind Corrected Munitions Dispenser |
 WDP | Weapon Delivery Planner | The BMS version of CWDS and PFPS
+WEZ | Weapon Engagement Zone |
 WIP | Work In Progress |
 WOW | Weight On Wheels | e.g aircraft is on the ground.
 WPN | Weapon | usually, the WPN format MFD page. Used for AGM-65 and AGM-88
+WX | Weather | TFR Radar mode used in bad weather.
 XMIT or XMT | Transmit | To transmit radio signals etc.
