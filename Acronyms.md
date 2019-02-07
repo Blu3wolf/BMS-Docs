@@ -39,25 +39,32 @@ AI | Artificial Intelligence |
 AIFF | Advanced IFF | IFF Interogator e.g. APX-113 (Not implemented in BMS) 
 AIM | Air Intercept Missile | AIM-9B etc
 AIP | Aeronautical Information Publication |
+AirTac | Aerial TACAN beacon used by KC-135 and KC-10 tankers.
 AL | Aft Left reservoir | Fuel needle 
+ALS | Approach Lighting System | Runway Lights 
 ALT | Altitude |
 ALT | Alternate |
+AMUX | A-Multiplex | Avionics BUS A
 ANT ELEV | Antenna Elevation | Adjusts radar scan elevation between + and - 60°
 AOA | Angle of Attack | The angular distance between the aircraft flight path, and its longitudinal axis
 AOR | Area of Responsibility |
 AP or A/P | Auto Pilot |
 AR | Aerial Refueling | Usually, AR door 
 AR | Automatic Radar | HUD label when displaying radar altitude.
+ARI | Aileron Rudder Interconnect |
 ARM | Anti Radiation Missile |
 ARTCC | Air Route Traffic Control Centre | 
 ASGN | Assign | 
 ATC | Air Traffic Control | In BMS, this refers to an enthuiastic underachiever
+ATF | Automatic Terrian Following | 
 ATLIS | Automatic Tracking and Laser Integration System | An older pod not used on F-16s
 ATO | Air Tasking Order | In BMS, this refers to the list of planned packages
 ATP | Advanced Targeting Pod |
-ATT | Attitude |
+ATP-56B | Allied Tactical Publication | Air to Air Refuelling (NATO)
+ATT or ATTD | Attitude |
 AUTO | Automatic |
 AUX | Auxiliary |
+AV | Avionics |
 AVTR | Air Video Tape Recorder |
 AWACS | Airborne Warning and Control System | Aircraft with long range radar and C3 capability
 AZ | Azimuth |
@@ -70,7 +77,9 @@ BCN | Beacon |
 BI | Burst Interval | DED EWS Page option.
 BINGO or BNGO | | Time to go home we are Bingo Fuel - Just enough fuel to get back to base.
 BIT | Built In Test | Type of test run on avionics / computer systems to ensure they are working.
+BLKR | Blanker | Interference blanker Unit.
 BMS | Benchmark Sims |
+BMUX | B-Multiplex | Avionics bus B
 BORE | Boresight | AGM-65 targeting mode.
 BP | Bypass | SMS Uncage IR Missile manually.
 BQ | Burst Quantity | DED EWS Page option.
@@ -78,7 +87,7 @@ BRAA | Bearing, Range, Altitude, Aspect | Information given to locate any object
 BRK | Brake | e.g. Speed Brake
 BRT | Bright or Brightness | 
 BSGT | Boresight Correction | e.g. FLIR Boresight option.
-BUC | | Caution light
+BUC | | Caution panel light
 BUP | Backup |
 BULL | Bullseye |
 BVR | Beyond Visual Range |
@@ -86,6 +95,7 @@ BW | Bandwidth |
 BW | Blu3wolf |
 BYP | Bypass mode | Setting used when CMDS fails for releasing 1 x chaff & Flare.
 C&C | Command and Control |
+CADC | Central Air Data Computer | 
 CAP | Combat Air Patrol |
 CAS | Close Air Support | What the guys on the ground love the hog for...
 CAS | Calibrated Air Speed | IAS corrected for position and instrument error.
@@ -113,6 +123,7 @@ CRS | Course | Your current course.
 CRUS | Cruise | DED Mode button on ICP.
 CTO | Conventional Takeoff |
 CTR | Centre |
+CW | Clock Wise |
 CWDS | Combat Weapon Delivery Software | F-16 mission planning software
 CZ | Cursor Zero | MFD OSB function used to zero cursor slews; required for accurate navigation in BMS.
 DA | Direct Access | Direct Access OSBs #12, #13, #14.
@@ -130,13 +141,15 @@ DELTA | Difference |
 DEP | Depressed |
 DEPR RET | Depressible Reticle | Backup manual reticle for bombing how it used to be done.
 DEV | Developer |
+DFCLS | Digital FLCS| See FLCS 
 DGFT | Dogfight Mode | One of two override mastermodes in the F-16
 DISC | Disconnect |
-DL | Data Link |
+DL or DLNK | Data Link |
 DLZ | Dynamic Launch Zone |
 DMPI | Desired Munitions Point of Impact |
 DME | Distance Measuring Equipment | Slant range from Aircraft to a Ground station (typically TACAN)
 DMS | Display Management Switch | 4 way switch on the SSC. Used to control displays in the avionics suite. Important.
+DMUX | D-Multiplex | Avionics bus D.
 DN | Down |
 DOC | Document |
 DOF | Degree of Freedom | usually referring to moving surfaces on an aircraft in the sim
@@ -153,7 +166,7 @@ ECS | Environmental Control System | Provides Air conditioning and pressurisatio
 EDR | Endurance |
 EEC | Electrical Engine Control |
 EEGS | Enhanced Envelope Gunsight | HUD mode for gun aiming in A-A. 
-EGI | Electronic GPS / INS | Have fun looking those ones up, I guess!
+EGI | Embedded GPS / INS | Have fun looking those ones up, I guess!
 ELEC | Electrical system |
 ELEV or EL | Elevation or Height | 
 EMF | Eastern Mediterranean Front | A (now defunct) theatre for BMS. Never released.
@@ -171,8 +184,10 @@ F-ACK | Fault Acknowledge |
 FAC | Forward Air Controller | The guy bossing the hog around
 FAC(A) | Forward Air Controller Airborne | A pilot telling other pilots how to fly CAS
 FAIL | Fail | e.g. A test has failed.
+FCC | Fire Control Computer |
 FCR | Fire Control Radar | An MFD page displaying radar information
 FDBK | Feedback | DED EWS page option.
+FDR | Flight Data Recorder | Crash survivable recorder.
 FEBA | Forward Edge of Battle Area |
 FEDS | | HUD EEGS symbology. 
 FENCE | Fence | A boundary separating hostile and friendly forces 
@@ -187,13 +202,14 @@ FLCC | Flight Control Computer |
 FLCP | Flight Control Panel |
 FLIR | Forward Looking IR | 
 FLOT | Forward Line of Own Troops |
+FMS | Fuel Measurment System| 
 FOS | Fuel Onboard at Station | Pilot fuel check
 FOV | Field Of View | Refers to what is visible, or how much is visible - how wide you can see
-FR | Forward Right reservoir | Fuel needle. 
-Frag | Fragmentation | Type of weapon effect
 FOV | Field Of View |
 FPM | Flight Path Marker | A HUD symbol that is positioned on the aircraft velocity vector
 FPS | Frames Per Second |
+FR | Forward Right reservoir | Fuel needle. 
+Frag | Fragmentation | Type of weapon effect
 FS | Fighter Squadron |
 FSCL | Fire Support Coordination Line |
 FT | Feet | Measurement.
@@ -243,6 +259,7 @@ ICP | Integrated Control Panel |
 IDENT | Indentification |
 IDM | Improved Data Modem | A wireless data link technology for A-A and A-G use.
 IFF | Identification Friend or Foe | A system currently unimplemented in BMS
+IFI | In Flight Allignment | Alligning the INS in flight.
 IFR | Instrument Flight Rules | Or, I Follow Roads
 ILS | Instrument Landing System |
 IM | Inner Marker | Marker beacon for ILS approach.
@@ -257,6 +274,7 @@ INV | Inventory | Option on SMS to show current stores carried.
 IP | Instructor Pilot |
 IP | Initial Point |
 IR | Infra Red |
+IRL | In Real Life | Forum slang.
 ITO | Israel Theatre of Operations | A third party theatre for BMS. 
 IVC | Internal Voice Comms | BMS' radio software for voice communication
 Inc. | Incorporated |
@@ -269,6 +287,7 @@ JSTARS | Joint Surveillance Target Attack Radar System | E-8 ground battle manag
 kHz | KiloHertz | A unit of measurement of frequency equal to 1,000 Hz
 KM | Kilometres | Unit of measurement.
 KTO | Korean Theatre of Operations |
+KY58 | | Secure Voice panel on right aux console (Not implemented)
 LAAD | Low Altitude Drogue Delivery | A seldom used bombing mode.
 LAN | Local Area Network | What your router sets up between itself and your computer
 LAND | Landing Time | TEST MFD Page
@@ -288,13 +307,15 @@ Link-16 | Link-16 | A system currently unimplemented in BMS.
 M-SEL | Mode Select | button on ICP.
 MAGV | Magnetic Variation | DED page to correct INS errors.
 MAL & IND LTS | Malfunction and Indicator Lights | A self explanatory test button in the aircraft
-MAN | Manual | As opposed to AUTO.
+MAN | Manual | As opposed to AUTO also see MNL.
 MAN RANGE | Range knob | Throttle control used to adjusting TGP FOV
 MAINT | Maintenance |
 MAX | Maximum |
 MB | MiGBuster.
 MC | Mission Commander | Software for editing BMS missions
-MFD | Multi Function Display | 
+MC04 or MC13 | Modular Mission Computers | See MMC 
+MFD | Multi Function Display |
+MFDS | Multi Function DisplaySet |
 MFDE | MFD Extractor |
 MFL | Maintenance Fault List | TEST MFD Page
 MHz | MegaHertz | A unit of measurement of frequency equal to 1,000 kHz
@@ -302,20 +323,22 @@ MIC | Microphone | Part of Audio / radio system.
 MiG | Mikoyan-Gurevich | A Russian aircraft manufacturer
 MIL | Military | Usually, Military Power - full thrust available without afterburner
 MISC | Miscellaneous 
+MiTac | | Aerial TACAN beacon used by KC-10 tankers.
 MITL | Man-In-The-Loop | A category of weapons requiring input from the operator during the weapon TOF
 MLG | Main Landing Gear |
 MLU | Mid Life Update | An upgrade program applied to a number of EPAF F-16s
-MMC | Multi-Mission Computer | Previoulsy known as the FCC.
-MNL | Manual | Manual radio mode.
+MMC | Modular / Multi-Mission Computer | Previoulsy known as the FCC.
+MNL | Manual | Manual radio mode also see MAN.
 MP | Multiplayer |
 MPO | Manual Pitch Overide Switch | Used to rock out of Deep Stalls.
 MRK | Mark |
 MRM | Missile Overide Mode | selected via Throttle for quick access to AMRAAM and Sidewinder missiles.
 MSA | Minimum Safe Altitude |
-MSL | Missile | This specifically refers to the volume control for the sidewinder (AIM-9) audio tone.
+MSL | Missile Slaving Loop | This specifically refers to the volume control for the sidewinder (AIM-9) audio tone.
 MSL | Minimum Safe Level | Value used with TFR.
 MSL OVRD | Missile Override Mode | One of two override mastermodes in the F-16
 MSR OVRD | Miss-spelling of MSL OVRD |
+MUX | Multiplexer |
 MWS | Missile Warning System | 
 NAT | Network Address Translation | A function of your router (probably)
 NAV | Navigation | Default mastermode of the aircraft
@@ -326,7 +349,9 @@ NORM | Normal |
 NOZ POS | (Engine) Nozzle Position | 
 NSTL | Nose & Tail | Bomb fuzing option.
 NVG | Night Vision Goggles |
+NVP | Navigation Pod | e.g. AAQ-13 LANTIRN pod
 NWS | Nose Wheel Steering | 
+O2 | Oxygen | 
 OA or OA1/2 | Offset Aim point sighting |
 OBCM | On Board Countermeasures | chaff, flares, those fancy electronic beepers we dont have in BMS.
 OBOGS | On Board Oxygen Generating System  
@@ -344,9 +369,10 @@ OPR | Operate | A system is running.
 OSB | Option Select Button | The fancy name for the little buttons around the edge of the MFD
 OVRD | Override |
 OXY LOW | Oxygen Low |
+PAPI | Precision Approach Path Indicator | Four white/red landing aid lights to the side of the runway. 
 PDLCT | Pod de Désignation Laser à Caméra Thermique | An older pod not used on F-16s
 PFL | Pilot Fault List |
-PFLD | Pilot Fault List Database or Display |
+PFLD | Pilot Fault List Display |
 PFPS | Portable Flight Planning Software | Slightly newer F-16 mission planning software.
 PNEU | Pneumatic (Pressure) |
 PO | Power On |
@@ -371,6 +397,7 @@ QTY | Quantity |
 RALT | Radar Altimeter | Measures altitude Above Ground Level.
 RCCE | Reconnaissance |
 RCL | Recall |
+RCR | Runway Condition |
 RDY | Ready |
 REQCTR | Request to Counter | Option in EWS page of DED.
 REQJAM | Request Jam | Option in EWS page of BMS UI to have the ALR REQJAM when detecting a threat
@@ -412,6 +439,7 @@ SNSR | Sensor |
 SOI | Sensor Of Interest | The system that is selected / in use and has focus. Typically on an MFD or the HUD.
 SOP | Standard Operating Procedure |
 SP3 | SuperPak 3 | An older (obsolete) version of Falcon
+SPECS | Specifications |
 SPI | Sensor Point of Interest | A system used in the BMS F-16 to ensure all (most) sensors are looking at the same point
 SPI | System Point of Interest | A system used in the F-16 to ensure all (some) sensors are looking at the same point
 SPICE | A specific IAM | Not an acronym, but included because you might come here looking for it.
@@ -425,6 +453,7 @@ ST STA | Store Stations |
 STBY | Standby | A System is in Standby.
 STPT | Steerpoint |
 STRG | Steering |
+SWIM || FLCS and TFR Fault code.
 SYM | Symbology | Wheel on ICP for HUD symbology
 SYS | System |
 T-ILS | TACAN & ILS | Button on ICP.
@@ -435,6 +464,7 @@ TARCAP | Target Area CAP |
 TAS | True Air Speed | Actual speed through the air
 TACAN | Tactical Air Naviagtion | A common way of navigating the Falcon world using Radio.
 TBRG | Target Bearing | DED VRP page option.
+TCDS |Threat Adaptive Countermeasures Dispensing Set|
 TCN | See TACAN |
 TCP | Transmission Control Protocol | used for most things on the internet
 TD | Threshold Detection | SMS IR missile will automatically uncage.
