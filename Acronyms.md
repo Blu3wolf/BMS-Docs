@@ -10,7 +10,7 @@ Abbr. | Full Term | Description
 2D | Two Dimensions |
 3D | Three Dimensions |
 A-A | Air to Air |
-A-G | Air to Ground |
+A-G or AG | Air to Ground |
 A-LOW  or ALOW | Altitude Low | button on ICP to enter the A-LOW page in DED
 AAA | Anti Aircraft Artillery |
 AAR | Aerial Refueling | As in, Air to Air Refueling, or midair refueling
@@ -75,6 +75,7 @@ BARO | Barometric | Typically Barometric Altitude above Sea Level.
 BATT | Battery | Aircraft Battery power source.
 BATR | Bullets At Target Range | HUD Circle when in EEGS mode.
 BCN | Beacon |
+BE | Bullseye | DED page - see BULL.
 BI | Burst Interval | DED EWS Page option.
 BINGO or BNGO | | Time to go home we are Bingo Fuel - Just enough fuel to get back to base.
 BIT | Built In Test | Type of test run on avionics / computer systems to ensure they are working.
@@ -127,6 +128,7 @@ CTR | Centre |
 CW | Clock Wise |
 CWDS | Combat Weapon Delivery Software | F-16 mission planning software.
 CZ | Cursor Zero | MFD OSB function used to zero cursor slews; required for accurate navigation in BMS.
+D&R | Depress and Release | the Missile Step button to select stores stations.
 DA | Direct Access | Direct Access OSBs #12, #13, #14.
 Dash-34 | tautological confusion | Dash Dash 34 - it's a manual.
 DBS | Doppler Beam Sharpening | APG-68 A-G sub modes to give a closer look at an area.
@@ -142,6 +144,7 @@ DED | Data Entry Display |
 DELTA | Difference |
 DEP | Depressed |
 DEPR RET | Depressible Reticle | Backup manual reticle for bombing how it used to be done.
+DEST | Destination |
 DEV | Developer |
 DFCLS | Digital FLCS| See FLCS 
 DGFT | Dogfight Mode | One of two override mastermodes in the F-16.
@@ -210,6 +213,7 @@ FPM | Flight Path Marker | A HUD symbol that is positioned on the aircraft veloc
 FPS | Frames Per Second |
 FR | Forward Right reservoir | Fuel needle in cockpit on fuel dial. 
 Frag | Fragmentation | Type of weapon effect.
+FRQ | Frequency | TCN DED Page.
 FS | Fighter Squadron |
 FSCL | Fire Support Coordination Line |
 FT | Feet | Measurement.
@@ -293,6 +297,7 @@ LAN | Local Area Network | What your router sets up between itself and your comp
 LAND | Landing Time | TEST MFD Page.
 LANTIRN | Low Altitude Tactical Navigation with IR at Night | A specific system used on some F-16s for night flight.
 LASER ST | Laser Spot Track | see LST.
+LAT | Latitude | North to South position of a point on the Earths surface.
 LCO | Limit Cycle Oscillation | Complex buffeting and stores flutter affecting F-16.
 LEF or LE FLAPS | Leading Edge Flaps | Devices on the main wings to provide more lift.
 LG or LDG | Landing Gear |
@@ -300,6 +305,7 @@ LGB | Laser Guided Bomb |
 LGMF | Ive already left, sir | Used by AI wingmen who were less than impressed.
 LIT | Look Into Turn | FLIR HUD Viewing option.
 LOC | Localiser | Displayed on ADI when localiser needle unreliable.
+Long | Longitude | East to West position of a point on the Earths surface.
 LOS | Line of Sight | 
 LPI | Low Probablity of Intercept | TFR Radar mode.
 LRS | Long Range Scan | APG-68 A-A Radar mode.
@@ -333,8 +339,9 @@ MMC | Modular / Multi-Mission Computer | Previoulsy known as the FCC.
 MNL | Manual | Manual radio mode also see MAN.
 MP | Multiplayer |
 MPO | Manual Pitch Overide Switch | Used to rock out of Deep Stalls.
-MRK | Mark | Typically Mark point.
+MRK or MKPT | Mark | Typically Mark point.
 MRM | Missile Overide Mode | selected via Throttle for quick access to AMRAAM and Sidewinder missiles.
+MRM | Medium Range Missile | e.g. HUD label when AMRAAM selected.
 MSA | Minimum Safe Altitude |
 MSL | Missile Slaving Loop | This specifically refers to the volume control for the sidewinder (AIM-9) audio tone.
 MSL | Minimum Safe Level | Value used with TFR.
@@ -450,6 +457,7 @@ SQ | Sequence Quantity | DED EWS Page option.
 SQL | Squelch | A Radio mode that helps reduce background noise.
 SP | Snow Plow | APG-68 A-G Radar sub mode.
 SPD | Speed |
+SRM | Short Range Missile | e.g. HUD label when Sidewinder selected.
 SSC | Side Stick Controller | The F-16 joystick
 STO | Short Takeoff |
 ST STA | Store Stations |
@@ -465,19 +473,19 @@ T/R | Transmit / Receive | Communications systems often need to Transmit or rece
 TADIL-J | Link-16 | See Link-16.
 TARCAP | Target Area CAP |
 TAS | True Air Speed | Actual speed through the air.
-TACAN | Tactical Air Naviagtion | A common way of navigating the Falcon world using Radio.
+TACAN | Tactical Air Naviagtion | Military radio navigation system. A common way of navigating the Falcon world.
 TBRG | Target Bearing | DED VRP page option.
 TCDS |Threat Adaptive Countermeasures Dispensing Set|
 TCN | See TACAN |
 TCP | Transmission Control Protocol | used for most things on the internet.
 TD | Threshold Detection | SMS IR missile will automatically uncage.
-TE | Tactical Engagement | A type of saved mission where flights are preplanned and preset
+TE | Tactical Engagement | A type of saved mission where flights are preplanned and preset.
 TEF | Trailing Edge Flap | 
-TEL | Transport Erector Launcher | A platform for SAMs - transport, firing, and everything inbetween
+TEL | Transport Erector Launcher | A platform for SAMs - transport, firing, and everything inbetween.
 TER | Triple Ejector Rack | A bomb rack that can carry three bombs.
 TF | Terrain Following | The ability for Auto Pilot systems to fly low level automatically.
 TFR | Terrain Following Radar | The LANTIRN Navigation pod has a TFR.
-TGP | Targeting Pod | Sniper, Litening etc
+TGP | Targeting Pod | Sniper, Litening etc.
 TGT | Target |
 TIR | TrackIR | A cheap and nasty headtracker (AKA the best on the market). Get EDTracker instead. 
 TMS | Target Management Switch | A 4 way switch on the SSC. Context sensitive, used for a wide variety of tasks in the avionics suite. Essential.
@@ -499,10 +507,14 @@ UDP | User Datagram Protocol | used instead of TCP for games.
 UFC | Up Front Controller |
 UHF | Ultra High Frequency | A radio band above VHF.
 UI | User Interface |
+ULFT | Unified Loft | A Bombing sub mode. (Not Implemented)
 ULS | Ultra Long Search | APG-68 A-A Radar mode.
 V/STOL | Vertical or Short Takeoff and Landing |
 VAH | Velocity, Altitude, Heading | HUD mode.
-VIP | Visual Initial Point Sighting | Preplanned offset IP bombing technique. 
+VIP | Visual Initial Point Sighting | Preplanned offset IP bombing technique.
+VOR | VHF Omni Directional Range | Civilian Radio navigation aid (not in Falcon).
+VORDME | | A radio navigation aid with VOR and DME features combined.
+VORTAC | | A radio navigation aid with VOR and TACAN features combined.
 VTO | Vertical Takeoff |
 VTOL | Vertical Takeoff and Landing |
 VIS | Visual | e.g. AGM-65 Visual E-O mode.
