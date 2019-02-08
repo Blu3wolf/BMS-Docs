@@ -184,7 +184,6 @@ EXT | External |
 F-ACK | Fault Acknowledge |
 FAC | Forward Air Controller | The guy bossing the hog around
 FAC(A) | Forward Air Controller Airborne | A pilot telling other pilots how to fly CAS
-FAIL | Fail | e.g. A test has failed.
 FCC | Fire Control Computer |
 FCR | Fire Control Radar | An MFD page displaying radar information
 FDBK | Feedback | DED EWS page option.
@@ -206,7 +205,6 @@ FLOT | Forward Line of Own Troops |
 FMS | Fuel Measurment System| 
 FOS | Fuel Onboard at Station | Pilot fuel check
 FOV | Field Of View | Refers to what is visible, or how much is visible - how wide you can see
-FOV | Field Of View |
 FPM | Flight Path Marker | A HUD symbol that is positioned on the aircraft velocity vector
 FPS | Frames Per Second |
 FR | Forward Right reservoir | Fuel needle. 
