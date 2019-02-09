@@ -36,7 +36,9 @@ AEW | Airborne Early Warning |
 AFAPD | Air Force Applications Programme Development | Protocol used by IDM.
 AFM | Advanced Flight Model | The only flight model installed with BMS.
 AFMAN | Air Force Manual |
-AFT | Aft | Aft or Rear
+AFT | Aft | Aft or Rear.
+AGC | Automatic Gain Control | TGP Gain control mode.
+AGM-65 | Air To Ground Missile 65 | Maverick. 
 AI | Air Interdiction | Mission type behind enemy lines to attack ground targets of opportunity.
 AI | Artificial Intelligence |
 AIFF | Advanced IFF | IFF Interogator e.g. APX-113 also see IFF (Not implemented in BMS) 
@@ -49,9 +51,10 @@ ALS | Approach Lighting System | Runway Lights.
 ALT | Altitude |
 ALT | Alternate |
 AMUX | A-Multiplex | Avionics BUS A
+AMS | ? | Manual calls the Advanced Mode Autp Pilot switch this in error.
 AN/AAQ-13 || LANTIRN NVP
 AN/AAQ-14 || LANTIRN TGP
-AN/AAQ-32 || Sniper XR Advanced TGP.
+AN/AAQ-33 || Sniper XR Advanced TGP.
 AN/ALR-56M || Advanced Radar Warning Receiver made by BAE systems.
 AN/ALR-67 || Radar Warning Receiver made by Raytheon.
 AN/ALR-93 || Radar Warning Receiver made by Raytheon.
@@ -62,6 +65,7 @@ AOR | Area of Responsibility |
 AP or A/P | Auto Pilot |
 AR | Aerial Refueling | Usually, AR door 
 AR | Automatic Radar | HUD label when displaying radar altitude.
+AREA | Area | TGP Tracking mode.
 ARI | Aileron Rudder Interconnect |
 ARM | Anti Radiation Missile |
 ARTCC | Air Route Traffic Control Centre | 
@@ -86,6 +90,7 @@ BATT | Battery | Aircraft Battery power source.
 BATR | Bullets At Target Range | HUD Circle when in EEGS mode.
 BCN | Beacon |
 BE | Bullseye | DED page - see BULL.
+BHOT | Black Hot | FLIR Mode. 
 BI | Burst Interval | DED EWS Page option.
 BINGO or BNGO | | Time to go home we are Bingo Fuel - Just enough fuel to get back to base.
 BIT | Built In Test | Type of test run on avionics / computer systems to ensure they are working.
@@ -119,11 +124,13 @@ CBU | Cluster Bomb Unit | CBU-87 etc.
 CCIP | Continuously Computed Impact Point | Common manual GP bombing mode. 
 CCRP | Continuously Computed Release Point | Common manual bombing mode used with GP and most Guided bombs.
 CFT | Conformal Fuel Tanks | Aditional fuel tanks on F-16 Fuselage on later F-16 modesl such as Block 50/52 Advanced, Plus and Block 60.
+CFOV | Centre Field Of View | AGM-65 Video Symbology. 
 CG | Centre of Gravity |
 CH | Chaff | Expendable radar decoy.
 CHN | Channel |
 CKPT | Cockpit | 
 CMD | Command |
+CMBT | Combat |
 CMS | Countermeasures Switch | 4 way switch on the SSC. Controls dispensing of OBCMs. Essential.
 CMDS | Countermesures Dispensing Set | Control panel left side with countermeasures related controls. 
 CNI | Communication and Navigation Instruments | 2 position knob on the AUX COMM panel. Controls whether UFC or BUP controls are active.
@@ -293,6 +300,7 @@ IM | Inner Marker | Marker beacon for ILS approach.
 IMC | Instrument Meterological Conditions | Weather in which the IFR are necessary.
 Incl | Inclement |
 IN | In | Not out.
+INR | Inertial Rates | TGP Mode when pod cannot track with POINT or AREA.
 INT | Internal |
 INTG | Interogation Page | DED page for IFF.
 INS | Inertial Navigation System | A system of accelerometers and gyroscopes used to track movement from a known position.
@@ -355,6 +363,7 @@ MFD | Multi Function Display |
 MFDS | Multi Function DisplaySet |
 MFDE | MFD Extractor |
 MFL | Maintenance Fault List | TEST MFD Page
+MGC | Manual Gain Control | TGP Gain control mode.
 MHz | MegaHertz | A unit of measurement of frequency equal to 1,000 kHz.
 MIC | Microphone | Part of Audio / radio system.
 MiG | Mikoyan-Gurevich | A Russian aircraft manufacturer.
@@ -379,6 +388,7 @@ MSL OVRD | Missile Override Mode | One of two override mastermodes in the F-16.
 MSR OVRD | Miss-spelling of MSL OVRD |
 MUX | Multiplexer |
 MWS | Missile Warning System | 
+N/M | North Pointer / Meterstick | TGP display option.
 NAT | Network Address Translation | A function of your router. (probably)
 NAV | Navigation | Default mastermode of the aircraft.
 NFBW | Non Fly By Wire | The conventional method of aircraft control.
@@ -419,6 +429,7 @@ PFPS | Portable Flight Planning Software | Slightly newer F-16 mission planning 
 PGM | Program | Same as PRGM.
 PNEU | Pneumatic (Pressure) |
 PO | Power On |
+POINT | Point | TGP Tracking Mode. 
 POS | Position | A HARM mode for firing at a steerpoint.  
 POV | Point of View | Usually, POV hat - the hat on your joystick used to look around.
 PPH | Pounds Per Hour | A fuel flow measure.
@@ -517,6 +528,7 @@ TCDS |Threat Adaptive Countermeasures Dispensing Set|
 TCN | See TACAN |
 TCP | Transmission Control Protocol | used for most things on the internet.
 TD | Threshold Detection | SMS IR missile will automatically uncage.
+TD | Target Designator | TGP A/A mode box symbol.
 TE | Tactical Engagement | A type of saved mission where flights are preplanned and preset.
 TEF | Trailing Edge Flap | 
 TEL | Transport Erector Launcher | A platform for SAMs - transport, firing, and everything inbetween.
@@ -526,6 +538,8 @@ TFR | Terrain Following Radar | The LANTIRN Navigation pod has a TFR.
 TGP | Targeting Pod | Sniper, Litening etc.
 TGT | Target |
 TIR | TrackIR | A cheap and nasty headtracker (AKA the best on the market). Get EDTracker instead. 
+TISL | Target Identification Set Laser | HUD symbol used with LGBs. 
+TLL | Target Locator Lines | TGP A-A mode lines that point to a target out of HUD View.
 TMS | Target Management Switch | A 4 way switch on the SSC. Context sensitive, used for a wide variety of tasks in the avionics suite. Essential.
 TO | Take Off |
 TOF | Time of Flight | 
@@ -536,7 +550,9 @@ TOT | Time on Target |
 TRANS | Transfer |
 TRIM | Trim | Yaw, Pitch or Rudder Trim. 
 TRP | Trapped | Trapped Fuel condition.
+TRNG | Training | 
 TWA | Threat Warning Aux | Specifially the defence suite panel on the left auxiliary console.
+TV | Television | Basic optical TGP view mode. 
 TvT | Team versus Team | 
 TWP | Threat Warning Prime | Primary RWR threat warning display panel.
 TWS | Track While Scan | APG-68 A-A Radar Mode.
@@ -576,6 +592,7 @@ WCMD | Wind Corrected Munitions Dispenser |
 WDP | Weapon Delivery Planner | The BMS version of CWDS and PFPS.
 WEZ | Weapon Engagement Zone |
 WFOV | Wide Field Of View |
+WHOT | White Hot | FLIR Mode.
 WIP | Work In Progress |
 WOW | Weight On Wheels | e.g aircraft is on the ground.
 WPN | Weapon | usually, the WPN format MFD page. Used for AGM-65 and AGM-88.
