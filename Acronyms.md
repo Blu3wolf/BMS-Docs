@@ -56,9 +56,9 @@ ALT | Altitude |
 ALT | Alternate |
 AMUX | A-Multiplex | Avionics BUS A
 AMS | ? | Manual calls the Advanced Mode Autp Pilot switch this in error.
-AN/AAQ |Antenna/Airborne Countermeasures Special Equiment | TGP or NVP like LANTIRN or SNIPER XR
+AN/AAQ |Antenna/Airborne Countermeasures Special Equiment | e.g. AN/AAQ-13 LANTIRN NVP or AN/AAQ-33 SNIPER XR Advanced TGP
 AN/ALR |Antenna/Airborne Countermeasures Receivers  | Radar Warning Receiver like AN/ALR-56M.
-AN/APG | Antenna/Airborne Radar Fire Control| Radar e.g APG-68 Multimode Pulse Doppler Radar. 
+AN/APG | Antenna/Airborne Radar Fire Control| Radar e.g AN/APG-68 Multimode Pulse Doppler Radar. 
 ANT ELEV | Antenna Elevation | Adjusts radar scan elevation between + and - 60°.
 ANG | Angle |
 AOA | Angle of Attack | The angular distance between the aircraft flight path, and its longitudinal axis.
