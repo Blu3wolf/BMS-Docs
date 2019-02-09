@@ -50,6 +50,7 @@ AIP | Aeronautical Information Publication |
 AirTac | Aerial TACAN beacon used by KC-135 and KC-10 tankers.
 AL | Aft Left reservoir | Fuel needle on cockpit fuel dial.
 ALE || Type of CMDS and EWS e.g. ALE-47.
+ALN | Align | Part of IAM Procedure.
 ALS | Approach Lighting System | Runway Lights.
 ALT | Altitude |
 ALT | Alternate |
@@ -321,6 +322,7 @@ Incl | Inclement |
 IN | In | Not out.
 INR | Inertial Rates | TGP Mode when pod cannot track with POINT or AREA.
 INT | Internal |
+INT | Initialise | IAM MFD Page - MDT in progress.
 INTG | Interogation Page | DED page for IFF.
 INS | Inertial Navigation System | A system of accelerometers and gyroscopes used to track movement from a known position.
 INSM | Inertial Navigation System Memory Page | DED Page.
@@ -336,9 +338,10 @@ Inc. | Incorporated |
 JDAM | Joint Direct Attack Munition | Old bombs with new GPS guidance kits.
 JETT | Jettison |
 JFS | Jet Fuel Starter | Small gas turbine used to start the main engine.
+JIZ | JSOW In Zone | HUD Symbology that displays when target in range of flight path.
 JMR | Jammer | ECM Jammer pod.
 JOKER || Used as a warning of getting near to BINGO fuel.
-JSOW | Joint Stand Off Weapon | AGM-154 IAM. 
+JSOW | Joint Stand Off Weapon | AGM-154 IAM.
 JSTARS | Joint Surveillance Target Attack Radar System | E-8 ground battle management and C3 aircraft.
 KCAS |Knots Calibrated Air Speed | CAS in Knots - see CAS.
 kHz | KiloHertz | A unit of measurement of frequency equal to 1,000 Hz.
@@ -391,6 +394,7 @@ MB | MiGBuster |
 MBC | Missile Boresight Correlator | TGP to AGM-65 Handoff.
 MC | Mission Commander | Software for editing BMS missions.
 MC04 or MC13 | Modular Mission Computers | See MMC. 
+MDT | Mass Data Transfer | IAM process. 
 MED | Medium |
 MFD | Multi Function Display |
 MFDS | Multi Function DisplaySet |
@@ -413,6 +417,7 @@ MNL | Manual | Manual radio mode also see MAN.
 MOI | Missile Of Interest | Radar symbology with AMRAAM in flight.  
 MP | Multiplayer |
 MPO | Manual Pitch Overide Switch | Used to rock out of Deep Stalls.
+MPPRE | Mission Planned Preplanned | JSOW delivery Sub mode not implemented.
 MPRF | Medium Pulse Repetition Frequency | Frequency of Pulse output from a radar. 
 MRK or MKPT | Mark | Typically Mark point.
 MRM | Missile Overide Mode | selected via Throttle for quick access to AMRAAM and Sidewinder missiles.
@@ -622,6 +627,7 @@ TUI | Time Until Impact | HARM POS page.
 TWP | Threat Warning Prime | Primary RWR threat warning display panel.
 TWS | Track While Scan | APG-68 A-A Radar Mode.
 TWS | Threat Warning System |
+TXA | Transfer Alignment | Part of IAM Warm up procedure. represented on MFD as A10 unsatifactory to A01 good. 
 U1 | Update 1 | Usually, 4.33 U1. The first version to require Flacon 4.0 be currently installed.
 UDP | User Datagram Protocol | used instead of TCP for games.
 UFC | Up Front Controller |
