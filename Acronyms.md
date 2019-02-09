@@ -38,7 +38,7 @@ AFM | Advanced Flight Model | The only flight model installed with BMS.
 AFMAN | Air Force Manual |
 AFT | Aft | Aft or Rear.
 AGC | Automatic Gain Control | TGP Gain control mode.
-AGM-65 | Air To Ground Missile 65 | Maverick. 
+AGM | Air To Ground Missile | e.g. AGM-65 Maverick. 
 AI | Air Interdiction | Mission type behind enemy lines to attack ground targets of opportunity.
 AI | Artificial Intelligence |
 AIFF | Advanced IFF | IFF Interogator e.g. APX-113 also see IFF (Not implemented in BMS) 
@@ -46,19 +46,15 @@ AIM | Air Intercept Missile | AIM-9B etc
 AIP | Aeronautical Information Publication |
 AirTac | Aerial TACAN beacon used by KC-135 and KC-10 tankers.
 AL | Aft Left reservoir | Fuel needle on cockpit fuel dial.
-ALE-47 || Type of CMDS and EWS.
+ALE || Type of CMDS and EWS e.g. ALE-47.
 ALS | Approach Lighting System | Runway Lights.
 ALT | Altitude |
 ALT | Alternate |
 AMUX | A-Multiplex | Avionics BUS A
 AMS | ? | Manual calls the Advanced Mode Autp Pilot switch this in error.
-AN/AAQ-13 || LANTIRN NVP
-AN/AAQ-14 || LANTIRN TGP
-AN/AAQ-33 || Sniper XR Advanced TGP.
-AN/ALR-56M || Advanced Radar Warning Receiver made by BAE systems.
-AN/ALR-67 || Radar Warning Receiver made by Raytheon.
-AN/ALR-93 || Radar Warning Receiver made by Raytheon.
-AN/APG-68 | Antenna/Airborne Radar Fire Control 68| F-16C/D Multimode Pulse Doppler Radar. 
+AN/AAQ |Antenna/Airborne Countermeasures Special Equiment | TGP or NVP like LANTIRN or SNIPER XR
+AN/ALR |Antenna/Airborne Countermeasures Receivers  | Radar Warning Receiver like AN/ALR-56M.
+AN/APG | Antenna/Airborne Radar Fire Control| Radar e.g APG-68 Multimode Pulse Doppler Radar. 
 ANT ELEV | Antenna Elevation | Adjusts radar scan elevation between + and - 60°.
 AOA | Angle of Attack | The angular distance between the aircraft flight path, and its longitudinal axis.
 AOR | Area of Responsibility |
@@ -69,6 +65,8 @@ AREA | Area | TGP Tracking mode.
 ARI | Aileron Rudder Interconnect |
 ARM | Anti Radiation Missile |
 ARTCC | Air Route Traffic Control Centre | 
+ASC | Attack Steering Cue | HUD Symbology. 
+ASEC | Allowable Steering Error Circle | HUB Symbology. 
 ASGN | Assign | e.g. Data Link comms mode.
 ATC | Air Traffic Control | In BMS, this refers to an enthuiastic underachiever.
 ATF | Automatic Terrian Following | 
@@ -427,6 +425,7 @@ PFL | Pilot Fault List |
 PFLD | Pilot Fault List Display |
 PFPS | Portable Flight Planning Software | Slightly newer F-16 mission planning software.
 PGM | Program | Same as PRGM.
+PGU | Projectile Gun Unit | Ammo like PGU-28 etc.
 PNEU | Pneumatic (Pressure) |
 PO | Power On |
 POINT | Point | TGP Tracking Mode. 
@@ -443,6 +442,7 @@ PRI | Primary Engine operating mode |
 PROF | Profile |
 PSI | Pounds Per Square Inch | Pressure measurement.
 PTR | IR Pointer | A mode for the TGP.
+PUAP | Pull-Up Anticipation Cue | HUD bomb mode symbology.
 PUP | Pull Up Point | Used with VIP bombing.
 PW | Pratt-Whittney | An engine manufacturer.
 PWR | Power |
@@ -551,6 +551,7 @@ TRANS | Transfer |
 TRIM | Trim | Yaw, Pitch or Rudder Trim. 
 TRP | Trapped | Trapped Fuel condition.
 TRNG | Training | 
+TTG | Time To Go |
 TWA | Threat Warning Aux | Specifially the defence suite panel on the left auxiliary console.
 TV | Television | Basic optical TGP view mode. 
 TvT | Team versus Team | 
