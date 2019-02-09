@@ -13,7 +13,7 @@ Abbr. | Full Term | Description
 A-A | Air to Air |
 A-G or AG | Air to Ground |
 A-LOW  or ALOW | Altitude Low | button on ICP to enter the A-LOW page in DED.
-A-Pole | | AC to target range with AMRAAM goes active with MPRF (Pitbull). HUD uses an M suffix for this.  
+A-Pole | | AC to target range when AMRAAM goes active with MPRF (Pitbull).   
 AAA | Anti Aircraft Artillery |
 AAA | Attitude Awareness Arc | HUD DGFT symbology.
 AAF | Attitude Advisory Function | LANTRIN TFR HUD warning function.
@@ -226,7 +226,7 @@ EWS | Electronic Warfare System | BMS window used for planning countermeasure sy
 EXP or EXP1 / 2 | Expand | Expand Field Of View allows pilot to get a closer look at sensor output such as the HSD.
 EXT | External |
 F-ACK | Fault Acknowledge |
-F-Pole || AC to target range at missile impact. Has an F suffix on the HUD.
+F-Pole || AC to target range at missile impact. 
 FAC | Forward Air Controller | The guy bossing the hog around.
 FAC(A) | Forward Air Controller Airborne | A pilot telling other pilots how to fly CAS.
 FCC | Fire Control Computer | See MMC.
