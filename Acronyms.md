@@ -55,9 +55,9 @@ ALS | Approach Lighting System | Runway Lights.
 ALT | Altitude |
 ALT | Alternate |
 AMUX | A-Multiplex | Avionics BUS A
-AMS | ? | Manual calls the Advanced Mode Autp Pilot switch this in error.
+AMS || Error in Manual should be the ADV Advanced Mode Auto Pilot switch.
 AN/AAQ |Antenna/Airborne Countermeasures Special Equiment | e.g. AN/AAQ-13 LANTIRN NVP or AN/AAQ-33 SNIPER XR Advanced TGP
-AN/ALR |Antenna/Airborne Countermeasures Receivers  | Radar Warning Receiver like AN/ALR-56M.
+AN/ALR |Antenna/Airborne Countermeasures Receivers  | Radar Warning Receiver e.g. AN/ALR-56M.
 AN/APG | Antenna/Airborne Radar Fire Control| Radar e.g AN/APG-68 Multimode Pulse Doppler Radar. 
 ANT ELEV | Antenna Elevation | Adjusts radar scan elevation between + and - 60°.
 ANG | Angle |
