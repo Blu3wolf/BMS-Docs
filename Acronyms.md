@@ -100,7 +100,7 @@ BCN | Beacon |
 BE | Bullseye | DED page - see BULL.
 BHOT | Black Hot | FLIR Mode. 
 BI | Burst Interval | DED EWS Page option.
-BINGO or BNGO | | Time to go home we are Bingo Fuel - Just enough fuel to get back to base.
+BINGO or BNGO | Bingo | Time to go home we are Bingo Fuel - Just enough fuel to get back to base.
 BIT | Built In Test | Type of test run on avionics / computer systems to ensure they are working.
 BLK | Block | F-16CM Block 42 etc.
 BLKR | Blanker | As in Interference blanker Unit on real F-16.
@@ -347,7 +347,7 @@ JETT | Jettison |
 JFS | Jet Fuel Starter | Small gas turbine used to start the main engine.
 JIZ | JSOW In Zone | HUD Symbology that displays when target in range of flight path.
 JMR | Jammer | ECM Jammer pod.
-JOKER || Used as a warning of getting near to BINGO fuel.
+JOKER | Joker | Used as a warning of getting near to BINGO fuel.
 JSOW | Joint Stand Off Weapon | AGM-154 IAM.
 JSTARS | Joint Surveillance Target Attack Radar System | E-8 ground battle management and C3 aircraft.
 KCAS |Knots Calibrated Air Speed | CAS in Knots - see CAS.
