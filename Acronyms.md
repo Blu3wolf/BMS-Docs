@@ -32,6 +32,7 @@ ACT | Activity |
 AD | Air Defence |
 AD | Arming Delay | SMS MFD Bomb arm delay in seconds.
 ADI | Attitude Direction Indicator | Common flight instrument showing current attitude.
+ADIZ | Air Defense Identification Zone |  A forward limit of national airspace.
 ADLINK | Air to Air Datalink Information | HSD page.
 ADV | Advisory |
 ADV | Advanced | Indicator used with TFR system to denote ACTIVE (Auto TFR is enabled) or STBY (system is in Manual).
@@ -52,7 +53,8 @@ AirTac | Aerial TACAN beacon used by KC-135 and KC-10 tankers.
 AL | Aft Left reservoir | Fuel needle on cockpit fuel dial.
 ALE || Type of CMDS and EWS e.g. ALE-47.
 ALN | Align | Part of IAM Procedure.
-ALS | Approach Lighting System | Runway Lights.
+ALS | Approach Lighting System | Runway Lights e.g. PAPI.
+ALSF | Approach Lighting System with Sequenced Flashing Lights | 
 ALT | Altitude |
 ALT | Alternate |
 ALT TRK | Altitude Liner Blanker | Radar CTRL Page.
@@ -67,8 +69,10 @@ ANG | Angle |
 AOA | Angle of Attack | The angular distance between the aircraft flight path, and its longitudinal axis.
 AOR | Area of Responsibility |
 AP or A/P | Auto Pilot |
+APRON | Apron | Parking area at an Airbase.
 AR | Aerial Refueling | Usually, AR door 
 AR | Automatic Radar | HUD label when displaying radar altitude.
+ARC | Arc | Part of a circle.
 AREA | Area | TGP Tracking mode.
 ARI | Aileron Rudder Interconnect |
 ARM | Anti Radiation Missile |
@@ -136,6 +140,7 @@ CARA | Combined Altitude Radar Altimeter | Measures altitude above ground for th
 CBU | Cluster Bomb Unit | CBU-87 etc.
 CCIP | Continuously Computed Impact Point | Common manual GP bombing mode. 
 CCRP | Continuously Computed Release Point | Common manual bombing mode used with GP and most Guided bombs.
+CDI | Course Deviation Indicator | Navigation aid line on HSI.
 CFT | Conformal Fuel Tanks | Aditional fuel tanks on F-16 Fuselage on later F-16 models such as Block 50/52 Advanced, Plus and Block 60.
 CFOV or CTFOV | Centre Field Of View | AGM-65 Video Symbology. 
 CG | Centre of Gravity |
@@ -247,7 +252,9 @@ FENCE Check | A list of checks a pilot must perform in flight to ensure switches
 FFB | Force Feedback |
 FFP | Fuel Flow Proportioner | Fuel System device that adjusts fuel flow rates.
 FINS | Forward Imaging Navigation Set | Sensor on the AAQ-13 NVP.
+FIR | Flight Information Region |  Airspace category around an ATC center. 
 FL | Flare | Expendable IR decoy.
+FL | Flight Level | e.g. Switch to using FLight Level over FL140 (14,000ft).
 FLO | First Launch Opportunity |
 FLT | Flight |
 FLCS | Flight Control System |
@@ -296,6 +303,7 @@ HAF | Hellenic Air Force | AF of Greece.
 HANDOFF |Hand off| RWR function.
 HARM | High Speed Anti Radiation Missile | AGM-88.
 HAS | HARM As Sensor | HARM targetting mode using the missiles own sensor.
+HAS | Hardened Aircraft Shelter | 
 HVAACAP | High Value Air Asset CAP |
 HDG | Heading |
 HDPT | Hardpoint | Often denotes the two cheek hardpoints on the air inlet.
@@ -316,6 +324,7 @@ HSI | Horizontal Situation Indicator | Compass like round dial used for TACAN or
 HQ | Headquarters |
 HYD | Hydraulic system |
 HYDRAZN | Hydrazine | When your engine dies this will power your flight systems until it runs out in about 10 minutes.
+IAF |Initial Approach Fix | Any given point at which the pilot will start the published approach procedure. 
 IAM | Inertially Aided Munition | Use INS, GPS or a combination of both.
 IAS | Indicated Air Speed | Airspeed as read by a pitot static system.
 ICP | Integrated Control Panel |
@@ -325,6 +334,7 @@ IFF | Identification Friend or Foe | A system currently unimplemented in BMS.
 IFI | In Flight Allignment | Alligning the INS in flight.
 IFR | Instrument Flight Rules | Or, I Follow Roads.
 ILS | Instrument Landing System |
+ILS DH or DA |Instrument Landing System Decision Height / Altitude | The height (AGL) at which the pilot needs to transition from instrument flight to visual flight. At that point, the pilot needs to have visually acquired the runway to be allowed to continue the approach.
 IM | Inner Marker | Marker beacon for ILS approach.
 IMC | Instrument Meterological Conditions | Weather in which the IFR are necessary.
 IMP | Impact | IAM MFD Page.
@@ -394,9 +404,11 @@ LT | Left | HARM HAS Mode.
 LVL | Level | HMCS Declutter Level.
 M-Pole | | AC to target range when AMRAAM goes to HPRF (Husky).
 M-SEL | Mode Select | button on ICP.
+Mach | | Speed of Sound measure. 
 MAGV | Magnetic Variation | DED page to correct INS errors.
 MAL & IND LTS | Malfunction and Indicator Lights | A self explanatory test button in the aircraft
 MAL | Malfunction |
+MALSR | Medium-intensity Approach Lighting System with Runway Alignment Indicator Lights |
 MAN | Manual | As opposed to AUTO also see MNL.
 MAN RANGE | Range knob | Throttle control used to adjusting TGP FOV.
 MANPAD |Man Portable Air Defence system | Shoulder Launched SAM like SA-18 etc.
@@ -417,6 +429,7 @@ MGC | Manual Gain Control | TGP Gain control mode.
 MHz | MegaHertz | A unit of measurement of frequency equal to 1,000 kHz.
 MIC | Microphone | Part of Audio / radio system.
 MiG | Mikoyan-Gurevich | A Russian aircraft manufacturer.
+Minima || Minium Altitude information for airbases. 
 MIL | Military | Usually, Military Power - full thrust available without afterburner.
 MISC | Miscellaneous | DED Page. 
 MiTac | | Aerial TACAN beacon used by KC-10 tankers.
@@ -426,8 +439,10 @@ MK INT | Marker Intensity | Radar CNTL page
 MLE | Missile Launch Envelope | HUD range scale for some weapons. 
 MLG | Main Landing Gear |
 MLU | Mid Life Update | An upgrade program applied to a number of EPAF F-16s.
+MM | Middle Marker | Beacon at airbase.
 MMC | Modular / Multi-Mission Computer | Previoulsy known as the FCC.
 MNL | Manual | Manual radio mode also see MAN.
+MOA | Military Operation Area | A limited zone where military training exercise occurs (live firing, dogfights, artillery …). 
 MOI | Missile Of Interest | Radar symbology with AMRAAM in flight.  
 MP | Multiplayer |
 MPO | Manual Pitch Overide Switch | Used to rock out of Deep Stalls.
@@ -450,10 +465,12 @@ MWS | Missile Warning System |
 N/M | North Pointer / Meterstick | TGP display option.
 NAT | Network Address Translation | A function of your router. (probably)
 NAV | Navigation | Default mastermode of the aircraft.
+NDB | Non Directional Beacon | A Radio Navigation method in real world (Not in F4).
 NFBW | Non Fly By Wire | The conventional method of aircraft control.
 NFOV | Narrow Field Of View | 
 NLG | Nose Landing Gear |
 NM | Nautical Miles |
+NOTAM | Notice To Airman | Procedures are published for a certain period of time. Punctual hazards to navigation (and other) are mentioned in the NOTAM. Each pilot needs to give NOTAM proper consideration. 
 NO RAD | No Radar | HUD ACM label. 
 NO TER | No Terrain | HUD TFR warning message.
 NORM | Normal |
@@ -488,7 +505,7 @@ PDLCT | Pod de Désignation Laser à Caméra Thermique | An older pod not used o
 PFL | Pilot Fault List |
 PFLD | Pilot Fault List Display |
 PFPS | Portable Flight Planning Software | Slightly newer F-16 mission planning software.
-PGM | Program | Same as PRGM.
+PGM or PGR | Program | Same as PRGM.
 PGU | Projectile Gun Unit | Ammo like PGU-28 etc.
 PGLS | Precision Laser Guidance Set | Used by LJDAM bombs. 
 PM OFF | Power Management Off | Radar CTRL Page.
@@ -497,6 +514,7 @@ PNEU | Pneumatic (Pressure) |
 PO | Power On |
 POD | Pod | WPN page video source is Data Link Pod.
 POINT | Point | TGP Tracking Mode. 
+POL | Petroleum Oil Lubricant | 
 POS | Position | A HARM mode for firing at a steerpoint.  
 POV | Point of View | Usually, POV hat - the hat on your joystick used to look around.
 PPH | Pounds Per Hour | A fuel flow measure.
@@ -515,8 +533,9 @@ PUAP | Pull-Up Anticipation Cue | HUD bomb mode symbology.
 PUP | Pull Up Point | Used with VIP bombing.
 PW | Pratt & Whitney | An engine manufacturer.
 PWR | Power |
+QNE | Question Nil Elevation | A measure of air pressure adjusted to sea level used at higher Altitudes for FLight Level.
 QNH | Question Nil Height | A measure of air pressure adjusted to sea level.
-QTY | Quantity |
+QTY | Quantity | 
 Raero | Range Aerodynamic | HUD A-A Symbology. Maximum dynamic kinematic Range of a missile. 
 RALT | Radar Altimeter | Measures altitude Above Ground Level.
 RBL | Range and Bearing Launch Mode | Harpoon delivery mode.
@@ -527,7 +546,9 @@ RDY | Ready |
 REQCTR | Request to Counter | Option in EWS page of DED.
 REQJAM | Request Jam | Option in EWS page of BMS UI to have the ALR REQJAM when detecting a threat.
 REL | Release |
-RF | Radio Frequency | Radio / wireless communication emissions. 
+RF | Radio Frequency | Radio / wireless communication emissions.
+RK (P) | Republic of Korea Prohibited Area on Map (Sensitive areas).
+RK (R) | Republic of Korea Restricted Area on Map (Has limitations).
 RLY | Relay(s) | Part of Electrical System.
 Rmax | Maximum Range | Typically denotes Missile firing parameters.
 Rmin | Minimum Range | Typically denotes Missile firing parameters.
@@ -550,6 +571,7 @@ RV | maybe Rendezvous? | Used in pg 175 of BMS-Manual.pdf
 RVTO | Rolling Vertical Takeoff |
 RWR | Radar Warning Receiver | Part of the electronic warfare suite. Displays rough relative bearing to detected threats.
 RWS | Range While Scan | APG-68 A-A Radar mode.
+RWY | Runway |
 S-J | Selective Jettison | SMS MFD Option.
 SA | Situational Awareness | The number one - without this you are nothing.
 SAD | Search Altitude Display | label on radar under captains bars that changes with slew or antenna pitch.
@@ -566,6 +588,7 @@ SEMI | Semi-Automatic |
 SEP | Separate |
 SEQ | Sequence | Function of moving the DCS right on the ICP - e.g. will step to next option in the DED.
 SI | Sequence Interval | DED EWS Page option.
+SID | Standard Instrument Departure | Procedure - Heavy traffic airports need to despatch outgoing traffic in an orderly way. As such different routes are published and pilots are instructed by ATC to follow one or the other.
 Sierra Hotel | Shit Hot... 
 SIM | Simulate |
 SLAM | Stand off Land Attack Missile | AGM-84.
@@ -610,6 +633,8 @@ TADIL-J | Link-16 | See Link-16.
 TARCAP | Target Area CAP |
 TAS | True Air Speed | Actual speed through the air.
 TACAN | Tactical Air Naviagtion | Military radio navigation system. A common way of navigating the Falcon world.
+TACAN RAD | TACAN Radial |
+TACAN DA | TACAN Decision Altitude |
 TBL | Table | Threat table on HARM POS MFD page.
 TBRG | Target Bearing | DED VRP page option.
 TCDS |Threat Adaptive Countermeasures Dispensing Set|
@@ -641,6 +666,8 @@ TOS | Time Over Steerpoint  |
 TOT | Time on Target |
 TRANS | Transfer |
 TRANS | Transmission | MITL Weapon stage.
+TRANS ALT | Transition Altitude |  The altitude where local altimeter setting is switched with universal altimeter setting (29.92 inch of mercury – N.A. in Falcon). From ground to Transition altitude, we refer to altitude in feet.
+TRANS LEVEL |  Above the Trans Level, we refer to altitude in flight level (20000ft = FL200) Descending from FL150 to 3500ft with a trans level of FL70, we will switch universal altimeter setting from 29.92 to local altimeter setting at FL70 (7000ft). 
 TRIM | Trim | Yaw, Pitch or Rudder Trim. 
 TRP | Trapped | Trapped Fuel condition.
 TRNG | Training | 
@@ -664,8 +691,10 @@ UI | User Interface |
 ULFT | Unified Loft | A Bombing sub mode. (Not Implemented)
 ULS | Ultra Long Search | APG-68 A-A Radar mode.
 UNKN | Unknown |
+UNL | Unlimited | Airbase maps.   
 V/STOL | Vertical or Short Takeoff and Landing |
 VAH | Velocity, Altitude, Heading | HUD mode.
+VASI | Visual Approach Slope Indicator | A Visual aid to gauge glideslope when landing visually. In Falcon, it’s made of two rows of lights each side of the runway. The lights turn white to red depending on the aircraft position on the glideslope. 
 VEL | Velocity |
 VIP | Visual Initial Point Sighting | Preplanned offset IP bombing technique.
 VOR | VHF Omni Directional Range | Civilian Radio navigation aid (not in Falcon).
@@ -677,10 +706,11 @@ VIS | Visual | e.g. AGM-65 Visual E-O mode.
 VFR | Visual Flight Rules | Very F*\*king Risky
 VHF | Very High Frequency | A radio band below UHF.
 VLC | Very Low Clearance | TFR Radar mode for flat terrain.
-VNE | Velocity Never Exceed | Do not exceed this velocity.
 VMC | Visual Meterological Conditions | Weather in which the VFR are feasible.
 VMS | Voice Message System | Includes a free Bitchin Betty!
 VMU | Voice Message Unit |
+VNDB | Virtual Nono Directional Beacon | Falcon workaround for lack of NDBs.
+VNE | Velocity Never Exceed | Do not exceed this velocity.
 VRP | Visual Reference Point | Preplanned offset Target bombing technique.
 VS or VSR | Velocity Search with Ranging | APG-68 A-A radar mode. 
 VV  | Vertical Velocity |
@@ -689,6 +719,7 @@ WAC | Wide Angle Conventional | Typical F-16 HUD.
 WAN | Wide Area Network | In this case, anything other than the LAN.
 WAR | Wide Angle Raster | HUD originally on F-16 Block 40 & 42.
 WC | Weather Commander | Software for editing BMS weather maps.
+WCA | Wind Corrected Angles |
 WD | Wind | 
 WCMD | Wind Corrected Munitions Dispenser |
 WDP | Weapon Delivery Planner | The BMS version of CWDS and PFPS.
