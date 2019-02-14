@@ -55,6 +55,7 @@ ALN | Align | Part of IAM Procedure.
 ALS | Approach Lighting System | Runway Lights.
 ALT | Altitude |
 ALT | Alternate |
+ALT TRK | Altitude Liner Blanker | Radar CTRL Page.
 AMUX | A-Multiplex | Avionics BUS A
 AMS || Error in Manual should be the ADV Advanced Mode Auto Pilot switch.
 AN/AAQ | Antenna/Airborne Countermeasures Special Equiment | e.g. AN/AAQ-13 LANTIRN NVP or AN/AAQ-33 SNIPER XR Advanced TGP.
@@ -186,6 +187,7 @@ DFCLS | Digital FLCS | See FLCS
 DGFT | Dogfight Mode | One of two override mastermodes in the F-16.
 DISC | Disconnect |
 DL or DLNK | Data Link |
+DLY | Delay |
 DLZ | Dynamic Launch Zone | A-A HUD Symbology.
 DMC | Digital Maneuvering Cue | A-A HUD Symbology for AMRAAM Loft.
 DME | Distance Measuring Equipment | Slant range from Aircraft to a Ground station (typically TACAN).
@@ -200,6 +202,7 @@ DPRK | Democratic People's Republic of Korea | North Korea.
 DTC | Data Transfer Cartridge |
 DTE | Data Transfer Equipment |
 DTOS | Dive Toss | a Bombing Mode.
+DTT | Dual Track Target | Radar function.
 DTSB | Detected Threat Status Box | HARM HAS Page.
 DRIFT C/O | Drift Cut Out | Switch on ICP to remove wind drift from HUD symbology.
 DRNG | | DED Page.
@@ -381,6 +384,7 @@ Long | Longitude | East to West position of a point on the Earths surface.
 LOS | Line of Sight | 
 LOS | Line of Sight Luanch Mode | Harpoon delivery mode.
 LPI | Low Probablity of Intercept | TFR Radar mode.
+LPRF | Low Power Radio Frequency | Part of AN/APG-68 radar.
 LRCVRCNTRL | Laser Receiver Control | LJDAM MFD Page 2. Set to AFTER to use Laser Guidance.
 LRS | Long Range Scan | APG-68 A-A Radar mode.
 LRU | Line Replaceable Unit | Avionics computer module designed to be easier to fit/remove to an aircraft.
@@ -418,6 +422,7 @@ MISC | Miscellaneous | DED Page.
 MiTac | | Aerial TACAN beacon used by KC-10 tankers.
 MITL | Man-In-The-Loop | A category of weapons requiring input from the operator during the weapon TOF.
 Mk | Mark | GP bomb designation like Mk-82 etc.
+MK INT | Marker Intensity | Radar CNTL page
 MLE | Missile Launch Envelope | HUD range scale for some weapons. 
 MLG | Main Landing Gear |
 MLU | Mid Life Update | An upgrade program applied to a number of EPAF F-16s.
@@ -439,6 +444,7 @@ MSL | Minimum Safe Level | Value used with TFR.
 MSL | Mean Sea Level | A measure of altitude from Sea Level.
 MSL OVRD | Missile Override Mode | One of two override mastermodes in the F-16.
 MSR OVRD | Miss-spelling of MSL OVRD |
+MTR | | Radar Declutter and target rejection on Radar CTRL Page. 
 MUX | Multiplexer |
 MWS | Missile Warning System | 
 N/M | North Pointer / Meterstick | TGP display option.
@@ -485,6 +491,8 @@ PFPS | Portable Flight Planning Software | Slightly newer F-16 mission planning 
 PGM | Program | Same as PRGM.
 PGU | Projectile Gun Unit | Ammo like PGU-28 etc.
 PGLS | Precision Laser Guidance Set | Used by LJDAM bombs. 
+PM OFF | Power Management Off | Radar CTRL Page.
+PMW | Pulse Modulated Wave | Radar feature.
 PNEU | Pneumatic (Pressure) |
 PO | Power On |
 POD | Pod | WPN page video source is Data Link Pod.
@@ -581,12 +589,14 @@ SRM | Short Range Missile | e.g. HUD label when Sidewinder selected.
 SRM-S | Short Range Missile Slave | HMCS label for Slave mode.
 SRM-V | Short Range Missile Visual | HMCS label for Visual Boresight.
 SSC | Side Stick Controller | The F-16 joystick.
+STALO | Stable Local Oscillator | Part of a Low Power EF Unit in an AN/APG-68 radar.
 STO | Short Takeoff |
 ST STA | Store Stations |
 STBY | Standby | A System is in Standby.
 STPT or STP | Steerpoint |
 STRG | Steering |
 ST | Single Target | Radar e.g. ST SAM mode.
+STP | Sighting Point Rotary | A-G Radar function. 
 STT | Single Target Track | A-A Radar sub mode often used with Continuous Wave guidance.
 Sufa | Storm | Israeli name for the F-16I twin seat advanced Block 52.
 SWIM | System Wide Integrity Management | Monitors the NVP and TF - usually denotes a TFR Fault on TEST MFD.
@@ -617,6 +627,7 @@ TF | Track File | AMRAAM FCR symbology.
 TFOV | Total Field Of View |
 TFR | Terrain Following Radar | The LANTIRN Navigation pod has a TFR.
 TGP | Targeting Pod | Sniper, Litening etc.
+TGR HIS | Target History | Radar CTRL Page.
 TGT | Target |
 TIR | TrackIR | A cheap and nasty headtracker (AKA the best on the market). Get EDTracker instead. 
 TISL | Target Identification Set Laser | HUD symbol used with LGBs. 
@@ -633,14 +644,16 @@ TRANS | Transmission | MITL Weapon stage.
 TRIM | Trim | Yaw, Pitch or Rudder Trim. 
 TRP | Trapped | Trapped Fuel condition.
 TRNG | Training | 
+TQS | Throttle Quadrant System |
 TTG | Time To Go |
 TTS | Two Target SAM | A radar A-A submode of RWS.  
 TWA | Threat Warning Aux | Specifially the defence suite panel on the left auxiliary console.
+TWT | Travelling Wave Tube | Part of an AN/APG-68 radar transmitter. 
 TV | TeleVision | Basic optical TGP view mode. 
 TvT | Team versus Team | 
 TUI | Time Until Impact | HARM POS page.
 TWP | Threat Warning Prime | Primary RWR threat warning display panel.
-TWS | Track While Scan | APG-68 A-A Radar Mode.
+TWS | Track While Scan (TWIZ) | APG-68 A-A Radar Mode. 
 TWS | Threat Warning System |
 TXA | Transfer Alignment | Part of IAM Warm up procedure. represented on MFD as A10 unsatifactory to A01 good. 
 U1 | Update 1 | Usually, 4.33 U1. The first version to require Flacon 4.0 be currently installed.
@@ -669,7 +682,7 @@ VMC | Visual Meterological Conditions | Weather in which the VFR are feasible.
 VMS | Voice Message System | Includes a free Bitchin Betty!
 VMU | Voice Message Unit |
 VRP | Visual Reference Point | Preplanned offset Target bombing technique.
-VSR | Velocity Search with Ranging | APG-68 A-A radar mode. 
+VS or VSR | Velocity Search with Ranging | APG-68 A-A radar mode. 
 VV  | Vertical Velocity |
 VVI | Vertical Velocity Indicator | Shows climb or descent rate.
 WAC | Wide Angle Conventional | Typical F-16 HUD.
