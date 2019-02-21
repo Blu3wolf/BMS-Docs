@@ -9,6 +9,7 @@ Abbr. | Full Term | Description
 -34 | Dash Thirty Four | Aircraft Avionics Manual.
 2D | Two Dimensions |
 3D | Three Dimensions |
+5P (rule) | Proper Planning Prevents Poor Performance |
 1553 | MIL-STD-1553 | Avionics Bus protocol. 
 A-A | Air to Air |
 A-G or AG | Air to Ground |
@@ -276,6 +277,7 @@ FSCL | Fire Support Coordination Line |
 FT | Feet | Measurement.
 FTIT | Fan Turbine Inlet Temperature | A Measure of engine gas temperature similar to EGT.
 FTT | Fixed Target Track | Radar mode. 
+FUS | Fuselage |
 FWD | Forward |
 FZ | Freeze | MFD function to freeze / unfreeze a sensor display.
 G | Gravity | Often used to refer to the acceleration experienced in flight due to turns.
@@ -289,6 +291,7 @@ GHL | Ghost Horizon Line | HUD DGFT Symbology.
 GM | Ground Mapping | APG-68 A-G Radar mode. 
 GMT | Ground Moving Target | APG-68 A-G Radar mode.
 GND | Ground |
+GO | Go |
 GOG | Good Old Games | A place on the Web to buy Falcon 4.0.
 GP | General Purpose | As in, high speed delivery of low intelligence, high explosive.
 GPS | Global Positioning System | A system of satellites transmitting signals used to position fix the receivers location.
@@ -340,13 +343,14 @@ IMC | Instrument Meterological Conditions | Weather in which the IFR are necessa
 IMP | Impact | IAM MFD Page.
 Incl | Inclement |
 IN | In | Not out.
+INFO | Information |
 INR | Inertial Rates | TGP Mode when pod cannot track with POINT or AREA.
 INT | Internal |
 INT | Initialise | IAM MFD Page - MDT in progress.
 INTG | Interogation Page | DED page for IFF.
 INS | Inertial Navigation System | A system of accelerometers and gyroscopes used to track movement from a known position.
 INSM | Inertial Navigation System Memory Page | DED Page.
-INSTR | Instrument |
+INSTR on INST | Instrument |
 INV | Inventory | SMS Option to show current stores carried.
 IP | Instructor Pilot |
 IP | Initial Point | Usually the waypoint before the target.
@@ -377,6 +381,7 @@ LAR | Launch Acceptable Region | Range Scale in HUD for JDAM / WCMD bombs.
 LASER ST | Laser Spot Track | see LST.
 LAT | Latitude | North to South position of a point on the Earths surface.
 LAU | Launch Adapter Unit | Weapon pylon or rack - LAU-88 etc.
+LBS (lbs) | Pounds | Measurement of weight or thrust.
 LCO | Limit Cycle Oscillation | Complex buffeting and stores flutter affecting F-16.
 LCODE | Laser Code | LJDAM MFD Page parameter. 
 LEF or LE FLAPS | Leading Edge Flaps | Devices on the main wings to provide more lift.
@@ -440,9 +445,10 @@ MLE | Missile Launch Envelope | HUD range scale for some weapons.
 MLG | Main Landing Gear |
 MLU | Mid Life Update | An upgrade program applied to a number of EPAF F-16s.
 MM | Middle Marker | Beacon at airbase.
-MMC | Modular / Multi-Mission Computer | Previoulsy known as the FCC.
+MMC | Modular / Multi-Mission Computer | Previously known as the FCC.
 MNL | Manual | Manual radio mode also see MAN.
 MOA | Military Operation Area | A limited zone where military training exercise occurs (live firing, dogfights, artillery …). 
+MODE | Mode |
 MOI | Missile Of Interest | Radar symbology with AMRAAM in flight.  
 MP | Multiplayer |
 MPO | Manual Pitch Overide Switch | Used to rock out of Deep Stalls.
@@ -465,11 +471,14 @@ MWS | Missile Warning System |
 N/M | North Pointer / Meterstick | TGP display option.
 NAT | Network Address Translation | A function of your router. (probably)
 NAV | Navigation | Default mastermode of the aircraft.
+NAVAIDS | Navigation Aids | 
+NESW | North, East, South, West|
 NDB | Non Directional Beacon | A Radio Navigation method in real world (Not in F4).
 NFBW | Non Fly By Wire | The conventional method of aircraft control.
 NFOV | Narrow Field Of View | 
 NLG | Nose Landing Gear |
 NM | Nautical Miles |
+NOSIG | No Significant Changes | Weather brief
 NOTAM | Notice To Airman | Procedures are published for a certain period of time. Punctual hazards to navigation (and other) are mentioned in the NOTAM. Each pilot needs to give NOTAM proper consideration. 
 NO RAD | No Radar | HUD ACM label. 
 NO TER | No Terrain | HUD TFR warning message.
@@ -535,6 +544,7 @@ PW | Pratt & Whitney | An engine manufacturer.
 PWR | Power |
 QNE | Question Nil Elevation | A measure of air pressure adjusted to sea level used at higher Altitudes for FLight Level.
 QNH | Question Nil Height | A measure of air pressure adjusted to sea level.
+QNU || Magnetic Runway Heading
 QTY | Quantity | 
 Raero | Range Aerodynamic | HUD A-A Symbology. Maximum dynamic kinematic Range of a missile. 
 RALT | Radar Altimeter | Measures altitude Above Ground Level.
@@ -656,6 +666,7 @@ TGR HIS | Target History | Radar CTRL Page.
 TGT | Target |
 TIR | TrackIR | A cheap and nasty headtracker (AKA the best on the market). Get EDTracker instead. 
 TISL | Target Identification Set Laser | HUD symbol used with LGBs. 
+TL | Transition Level | TL140 - Weather brief
 TLL | Target Locator Lines | TGP A-A mode lines that point to a target out of HUD View.
 TMS | Target Management Switch | A 4 way switch on the SSC. Context sensitive, used for a wide variety of tasks in the avionics suite. Essential.
 TO | Take Off |
