@@ -54,6 +54,7 @@ AIP | Aeronautical Information Publication |
 AirTac | Aerial TACAN beacon used by KC-135 and KC-10 tankers.
 AL | Aft Left reservoir | Fuel needle on cockpit fuel dial.
 ALE || Type of CMDS and EWS e.g. ALE-47.
+ALIC || HARM AGM-88 MFD WIde FOV View (HAS Mode).
 ALN | Align | Part of IAM Procedure.
 ALS | Approach Lighting System | Runway Lights e.g. PAPI.
 ALSF | Approach Lighting System with Sequenced Flashing Lights | 
@@ -524,6 +525,7 @@ OXY LOW | Oxygen Low |
 PAPI | Precision Approach Path Indicator | Four white/red landing aid lights to the side of the runway. 
 PB | Pre-Briefed | HARM POS submode. 
 PDLCT | Pod de Désignation Laser à Caméra Thermique | An older pod not used on F-16s.
+PET | Pre-Emptive Targetting | HARM and SEAD. 
 PFL | Pilot Fault List |
 PFLD | Pilot Fault List Display |
 PFPS | Portable Flight Planning Software | Slightly newer F-16 mission planning software.
@@ -537,7 +539,7 @@ PO | Power On |
 POD | Pod | WPN page video source is Data Link Pod.
 POINT | Point | TGP Tracking Mode. 
 POL | Petroleum Oil Lubricant | 
-POS | Position | A HARM mode for firing at a steerpoint.  
+POS | Position (Known) | A HARM mode for firing at a steerpoint.  
 POV | Point of View | Usually, POV hat - the hat on your joystick used to look around.
 PPH | Pounds Per Hour | A fuel flow measure.
 PPT | Pre Planned Threat | Steerpoint used to note threat location.
