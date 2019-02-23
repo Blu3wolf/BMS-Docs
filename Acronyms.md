@@ -38,6 +38,7 @@ ADLINK | Air to Air Datalink Information | HSD page.
 ADV | Advisory |
 ADV | Advanced | Indicator used with TFR system to denote ACTIVE (Auto TFR is enabled) or STBY (system is in Manual).
 AEW | Airborne Early Warning | 
+AF | Approach Fix |
 AFAPD | Air Force Applications Programme Development | Protocol used by IDM.
 AFM | Advanced Flight Model | The only flight model installed with BMS.
 AFMAN | Air Force Manual |
@@ -70,6 +71,7 @@ ANG | Angle |
 AOA | Angle of Attack | The angular distance between the aircraft flight path, and its longitudinal axis.
 AOR | Area of Responsibility |
 AP or A/P | Auto Pilot |
+APEX ALT | Apex Altitude | LALD: Max altitude reached when pulling down to target.
 APRON | Apron | Parking area at an Airbase.
 AR | Aerial Refueling | Usually, AR door 
 AR | Automatic Radar | HUD label when displaying radar altitude.
@@ -90,7 +92,7 @@ ATO | Air Tasking Order | In BMS, this refers to the list of planned packages.
 ATP | Advanced Targeting Pod |
 ATP-56B | Allied Tactical Publication | Air to Air Refuelling (NATO).
 ATT or ATTD | Attitude |
-AUTO | Automatic |
+AUTO | Automatic | 
 AUX | Auxiliary |
 AV | Avionics |
 AVTR | Air Video Tape Recorder |
@@ -103,6 +105,7 @@ BATT | Battery | Aircraft Battery power source.
 BATR | Bullets At Target Range | HUD Circle when in EEGS mode.
 BC | JDAM | JDAM DED Display.
 BCN | Beacon |
+BDU | Bomb Dummy Unit | Practise Bomb designation.
 BE | Bullseye | DED page - see BULL.
 BHOT | Black Hot | FLIR Mode. 
 BI | Burst Interval | DED EWS Page option.
@@ -134,10 +137,11 @@ BYP | Bypass mode | Set dial to this when CMDS fails for releasing 1 x chaff & F
 C&C | Command and Control |
 CADC | Central Air Data Computer | 
 CAP | Combat Air Patrol |
+CARA | Combined Altitude Radar Altimeter | Measures altitude above ground for the F-16.
 CAS | Close Air Support | What the guys on the ground love the hog for...
 CAS | Calibrated Air Speed | IAS corrected for position and instrument error.
 CAT I or CAT III | Category | Limiter modes - CAT I A-A and CAT III typically A-G. 
-CARA | Combined Altitude Radar Altimeter | Measures altitude above ground for the F-16.
+CAVOK | Clear And Visibility OKay | Weather condition.
 CBU | Cluster Bomb Unit | CBU-87 etc.
 CCIP | Continuously Computed Impact Point | Common manual GP bombing mode. 
 CCRP | Continuously Computed Release Point | Common manual bombing mode used with GP and most Guided bombs.
@@ -165,6 +169,7 @@ CPL | Coupled | e.g. HSD is Coupled to the FCR range.
 CRM | Combined Radar Modes | AGM-68 A-A radar mode.
 CRS | Course | Your current course.
 CRUS | Cruise | DED Mode button on ICP.
+SCEM |  Climbing Safe Escape Manoeuvre |
 CTO | Conventional Takeoff |
 CTR | Centre |
 CW | Clock Wise |
@@ -182,6 +187,7 @@ DCLT | Declutter | Make a sensor output clearer by removing parts.
 DCPL | Decoupled | e.g. HSD is decoupled from FCR.
 DCS | Data Command Switch | Switch used on ICP to navigate DED menus.
 DDS | Direct Draw Surface | A type of texture for game models.
+DEAD | Destruction of Enemy Air Defences | A mission to destroy air defence equipment.  
 DEEC | Digital Electronic Engine Control |
 DED | Data Entry Display |
 DELTA | Difference |
@@ -282,6 +288,7 @@ FWD | Forward |
 FZ | Freeze | MFD function to freeze / unfreeze a sensor display.
 G | Gravity | Often used to refer to the acceleration experienced in flight due to turns.
 GA | Go Around | WPN Page. 
+GAL | Gallons (US) |
 GBU | Guided Bomb Unit | GBU-31 etc.
 GD or GRD | Guard | A Radio mode on an open frequency that many can hear.
 GE | General Electric | An engine manufacturer.
@@ -308,6 +315,7 @@ HARM | High Speed Anti Radiation Missile | AGM-88.
 HAS | HARM As Sensor | HARM targetting mode using the missiles own sensor.
 HAS | Hardened Aircraft Shelter | 
 HVAACAP | High Value Air Asset CAP |
+HD | High Drag |
 HDG | Heading |
 HDPT | Hardpoint | Often denotes the two cheek hardpoints on the air inlet.
 HDR | High Density Range | Refers to a software rendering method for improving visual appearance in many lighting conditions.
@@ -338,6 +346,7 @@ IFI | In Flight Allignment | Alligning the INS in flight.
 IFR | Instrument Flight Rules | Or, I Follow Roads.
 ILS | Instrument Landing System |
 ILS DH or DA |Instrument Landing System Decision Height / Altitude | The height (AGL) at which the pilot needs to transition from instrument flight to visual flight. At that point, the pilot needs to have visually acquired the runway to be allowed to continue the approach.
+ILS DME | Instrument Landing System / Distance Measuring Equipment | Approach equipment (Not in BMS)
 IM | Inner Marker | Marker beacon for ILS approach.
 IMC | Instrument Meterological Conditions | Weather in which the IFR are necessary.
 IMP | Impact | IAM MFD Page.
@@ -374,6 +383,7 @@ Knot | Nautical Miles Per Hour | Unit of speed measurement.
 KTO | Korean Theatre of Operations |
 KY58 | | Secure Voice panel on right aux console. (Not implemented)
 LAAD | Low Altitude Drogue Delivery | A bombing mode. (Not implemented)
+LALD | Low Altitude Low Drag | Bomb delivery method.
 LAN | Local Area Network | What your router sets up between itself and your computer.
 LAND | Landing Time | TEST MFD Page.
 LANTIRN | Low Altitude Tactical Navigation with IR at Night | A specific system used on some F-16s for night flight.
@@ -384,6 +394,7 @@ LAU | Launch Adapter Unit | Weapon pylon or rack - LAU-88 etc.
 LBS (lbs) | Pounds | Measurement of weight or thrust.
 LCO | Limit Cycle Oscillation | Complex buffeting and stores flutter affecting F-16.
 LCODE | Laser Code | LJDAM MFD Page parameter. 
+LD | Low Drag |
 LEF or LE FLAPS | Leading Edge Flaps | Devices on the main wings to provide more lift.
 LG or LDG | Landing Gear |
 LGB | Laser Guided Bomb | 
@@ -426,6 +437,7 @@ MC | Mission Commander | Software for editing BMS missions.
 MC04 or MC13 | Modular Mission Computers | See MMC. 
 MDT | Mass Data Transfer | IAM process. 
 MED | Medium |
+MEF | Maximum Elevation Figures | Important altitude considerations on a map.
 MFD | Multi Function Display |
 MFDS | Multi Function DisplaySet |
 MFDE | MFD Extractor |
@@ -454,6 +466,7 @@ MP | Multiplayer |
 MPO | Manual Pitch Overide Switch | Used to rock out of Deep Stalls.
 MPPRE | Mission Planned Preplanned | JSOW delivery Sub mode not implemented.
 MPRF | Medium Pulse Repetition Frequency | Frequency of Pulse output from a radar. 
+MRA | Minimum Release Altitude | LALD: Come off dry if at this altitude.
 MRK or MKPT | Mark | Typically Mark point.
 MRM | Missile Overide Mode | selected via Throttle for quick access to AMRAAM and Sidewinder missiles.
 MRM | Medium Range Missile | e.g. HUD label when AMRAAM selected.
@@ -528,6 +541,7 @@ POS | Position | A HARM mode for firing at a steerpoint.
 POV | Point of View | Usually, POV hat - the hat on your joystick used to look around.
 PPH | Pounds Per Hour | A fuel flow measure.
 PPT | Pre Planned Threat | Steerpoint used to note threat location.
+PRA | Planned Release Altitude | The altitude to release the bombs during LALD.
 PRE | Pre-planned |
 PREV | Previous |
 PRESS | Pressure |
@@ -539,6 +553,7 @@ PSA | Antenna Direction | WPN page for MIL weapons in flight.
 PSI | Pounds Per Square Inch | Pressure measurement.
 PTR | IR Pointer | A mode for the TGP.
 PUAP | Pull-Up Anticipation Cue | HUD bomb mode symbology.
+PULL DOWN ALT | Pull Down Altitude | LALD: The altitude to pull down to target.
 PUP | Pull Up Point | Used with VIP bombing.
 PW | Pratt & Whitney | An engine manufacturer.
 PWR | Power |
@@ -598,6 +613,7 @@ SEMI | Semi-Automatic |
 SEP | Separate |
 SEQ | Sequence | Function of moving the DCS right on the ICP - e.g. will step to next option in the DED.
 SI | Sequence Interval | DED EWS Page option.
+SHORAD | Short Range Air Defence | MANPADs, Shilka, SA-9/13/15 etc.
 SID | Standard Instrument Departure | Procedure - Heavy traffic airports need to despatch outgoing traffic in an orderly way. As such different routes are published and pilots are instructed by ATC to follow one or the other.
 Sierra Hotel | Shit Hot... 
 SIM | Simulate |
@@ -632,6 +648,7 @@ ST | Single Target | Radar e.g. ST SAM mode.
 STP | Sighting Point Rotary | A-G Radar function. 
 STT | Single Target Track | A-A Radar sub mode often used with Continuous Wave guidance.
 Sufa | Storm | Israeli name for the F-16I twin seat advanced Block 52.
+SUU | Suspension Utility Unit |
 SWIM | System Wide Integrity Management | Monitors the NVP and TF - usually denotes a TFR Fault on TEST MFD.
 SYM | Symbology | Wheel on ICP for HUD symbology.
 SYS | System |
