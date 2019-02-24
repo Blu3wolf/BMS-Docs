@@ -114,6 +114,7 @@ BINGO or BNGO | Bingo | Time to go home we are Bingo Fuel - Just enough fuel to 
 BIT | Built In Test | Type of test run on avionics / computer systems to ensure they are working.
 BLK | Block | F-16CM Block 42 etc.
 BLKR | Blanker | As in Interference blanker Unit on real F-16.
+BLU | Bomb Live Unit | Penetrating warhead bomb type.
 BMS | Benchmark Sims |
 BMUX | B-Multiplex | Avionics bus B.
 BOL | Bearing Only Launch Mode | Harpoon Launch Mode.
@@ -257,6 +258,7 @@ FEBA | Forward Edge of Battle Area |
 FEDS | | HUD part of EEGS symbology. 
 FENCE | Fence | A boundary separating hostile and friendly forces. 
 FENCE Check | A list of checks a pilot must perform in flight to ensure switches are setup for combat. 
+FEW | Few | Weather type (1-2 OKTAS) - Part of Terminal Area Forecast (TAF)
 FFB | Force Feedback |
 FFP | Fuel Flow Proportioner | Fuel System device that adjusts fuel flow rates.
 FINS | Forward Imaging Navigation Set | Sensor on the AAQ-13 NVP.
@@ -313,6 +315,7 @@ HAD | HARM Attack Display | MFD format for employing the HARM AGM-88.
 HAF | Hellenic Air Force | AF of Greece.
 HANDOFF |Hand off| RWR function.
 HARM | High Speed Anti Radiation Missile | AGM-88.
+HART | Hardened Artillery Site | North Korean HARTs
 HAS | HARM As Sensor | HARM targetting mode using the missiles own sensor.
 HAS | Hardened Aircraft Shelter | 
 HVAACAP | High Value Air Asset CAP |
@@ -483,6 +486,7 @@ MTR | | Radar Declutter and target rejection on Radar CTRL Page.
 MUX | Multiplexer |
 MWS | Missile Warning System | 
 N/M | North Pointer / Meterstick | TGP display option.
+NARO | Narrow | Field of View type.
 NAT | Network Address Translation | A function of your router. (probably)
 NAV | Navigation | Default mastermode of the aircraft.
 NAVAIDS | Navigation Aids | 
@@ -520,6 +524,7 @@ OPR | Operate | A system is running.
 OSB | Option Select Button | The fancy name for the little buttons around the edge of the MFD.
 OUT | Out | Not in
 OVRD | Override |
+OVC | Overcast | Weather type.
 OWL | Obstacle Warning System | TFR MFD line.
 OXY LOW | Oxygen Low |
 PAPI | Precision Approach Path Indicator | Four white/red landing aid lights to the side of the runway. 
@@ -661,6 +666,7 @@ T/R | Transmit / Receive | Communications systems often need to Transmit or rece
 TADIL-J | Link-16 | See Link-16.
 TARCAP | Target Area CAP |
 TAS | True Air Speed | Actual speed through the air.
+TASMO | Tactical Air Support for Maritime Operations |
 TACAN | Tactical Air Naviagtion | Military radio navigation system. A common way of navigating the Falcon world.
 TACAN RAD | TACAN Radial |
 TACAN DA | TACAN Decision Altitude |
@@ -751,7 +757,7 @@ WAR | Wide Angle Raster | HUD originally on F-16 Block 40 & 42.
 WC | Weather Commander | Software for editing BMS weather maps.
 WCA | Wind Corrected Angles |
 WD | Wind | 
-WCMD | Wind Corrected Munitions Dispenser |
+WCMD | Wind Corrected Munitions Dispenser | INS guided cluster bombs.
 WDP | Weapon Delivery Planner | The BMS version of CWDS and PFPS.
 WEZ | Weapon Engagement Zone |
 WFOV | Wide Field Of View |
@@ -762,3 +768,4 @@ WOW | Weight On Wheels | e.g aircraft is on the ground.
 WPN | Weapon | usually, the WPN format MFD page. 
 WX | Weather | TFR Radar mode used in bad weather.
 XMIT or XMT | Transmit | To transmit radio signals etc.
+ZSU | Zenitnaya Samokhodnaya Ustanovka | Anti-aircraft self-propelled system.
