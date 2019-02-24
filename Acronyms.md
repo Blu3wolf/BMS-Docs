@@ -171,7 +171,7 @@ CPL | Coupled | e.g. HSD is Coupled to the FCR range.
 CRM | Combined Radar Modes | AGM-68 A-A radar mode.
 CRS | Course | Your current course.
 CRUS | Cruise | DED Mode button on ICP.
-SCEM |  Climbing Safe Escape Manoeuvre |
+CSEM |  Climbing Safe Escape Manoeuvre |
 CTO | Conventional Takeoff |
 CTR | Centre |
 CW | Clock Wise |
