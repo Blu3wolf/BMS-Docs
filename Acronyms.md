@@ -63,7 +63,7 @@ ALT | Alternate |
 ALT TRK | Altitude Liner Blanker | Radar CTRL Page.
 AMUX | A-Multiplex | Avionics BUS A
 AMS || Error in Manual should be the ADV Advanced Mode Auto Pilot switch.
-AN/AAQ | Antenna/Airborne Countermeasures Special Equiment | e.g. AN/AAQ-13 LANTIRN NVP or AN/AAQ-33 SNIPER XR Advanced TGP.
+AN/AAQ | Antenna/Airborne Countermeasures Special Equipment | e.g. AN/AAQ-13 LANTIRN NVP or AN/AAQ-33 SNIPER XR Advanced TGP.
 AN/ALR | Antenna/Airborne Countermeasures Receivers  | Radar Warning Receiver e.g. AN/ALR-56M.
 AN/APG | Antenna/Airborne Radar Fire Control| Radar e.g AN/APG-68 Multimode Pulse Doppler Radar.
 AN/AXQ || Data Link pods e.g. AN/AXQ-14. 
@@ -121,7 +121,7 @@ BOL | Bearing Only Launch Mode | Harpoon Launch Mode.
 BORE | Boresight | AGM-65 targeting mode.
 BOW | Black on White | AGM-65AB polarity contrast option.
 BP | Bypass | SMS MFD - Uncage IR Missile manually.
-BP | SPICE | JDAM DED Page.
+BP | SPICE | Label on JDAM DED Page.
 BQ | Burst Quantity | DED EWS Page option.
 BRAA | Bearing, Range, Altitude, Aspect | Information given to locate any object (aircraft, bullseye etc).
 BRK | Brake | e.g. Speed Brake.
@@ -523,8 +523,8 @@ OPER | Operational |
 OPR | Operate | A system is running.
 OSB | Option Select Button | The fancy name for the little buttons around the edge of the MFD.
 OUT | Out | Not in
-OVRD | Override |
 OVC | Overcast | Weather type.
+OVRD | Override |
 OWL | Obstacle Warning System | TFR MFD line.
 OXY LOW | Oxygen Low |
 PAPI | Precision Approach Path Indicator | Four white/red landing aid lights to the side of the runway. 
@@ -745,7 +745,7 @@ VLC | Very Low Clearance | TFR Radar mode for flat terrain.
 VMC | Visual Meterological Conditions | Weather in which the VFR are feasible.
 VMS | Voice Message System | Includes a free Bitchin Betty!
 VMU | Voice Message Unit |
-VNDB | Virtual Nono Directional Beacon | Falcon workaround for lack of NDBs.
+VNDB | Virtual Non Directional Beacon | Falcon workaround for lack of NDBs.
 VNE | Velocity Never Exceed | Do not exceed this velocity.
 VRP | Visual Reference Point | Preplanned offset Target bombing technique.
 VS or VSR | Velocity Search with Ranging | APG-68 A-A radar mode. 
@@ -768,4 +768,4 @@ WOW | Weight On Wheels | e.g aircraft is on the ground.
 WPN | Weapon | usually, the WPN format MFD page. 
 WX | Weather | TFR Radar mode used in bad weather.
 XMIT or XMT | Transmit | To transmit radio signals etc.
-ZSU | Zenitnaya Samokhodnaya Ustanovka | Anti-aircraft self-propelled system.
+ZSU | Zenitnaya Samokhodnaya Ustanovka | Anti-aircraft self-propelled system. (ZSU-23 etc)
