@@ -129,7 +129,7 @@ BRT | Bright or Brightness |
 BScope | B Scope | Term for radar display. 
 BSGT | Boresight Correction | e.g. FLIR Boresight option.
 BTF | Bugged Track File | AMRAAM FCR symbology.
-BUC | | Caution panel light - not used. 
+BUC | | Part of Jet Engine. 
 BUP | Backup |
 BULL | Bullseye | A variable reference waypoint for freindly forces.
 BVR | Beyond Visual Range |
