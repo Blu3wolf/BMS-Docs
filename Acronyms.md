@@ -82,7 +82,7 @@ ARI | Aileron Rudder Interconnect |
 ARM | Anti Radiation Missile |
 ARTCC | Air Route Traffic Control Centre | 
 ASC | Attack Steering Cue | HUD Symbology. 
-ASEC | Allowable Steering Error Circle | HUB Symbology. 
+ASEC | Allowable Steering Error Circle | HUD Symbology. 
 ASGN | Assign | e.g. Data Link comms mode.
 ASL | Azimuth Steering Line | Vertical line down HUD in A-G modes to line up with target. 
 ATC | Air Traffic Control | In BMS, this refers to an enthuiastic underachiever.
